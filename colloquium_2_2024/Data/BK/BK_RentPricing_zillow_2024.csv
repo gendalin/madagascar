@@ -1,0 +1,641 @@
+ID,neighbourhood,address,latitude,longitude,type,price,zipcode
+1,Greenpoint,"60 Wharf Dr, Brooklyn",,,1b,4492,11222
+2,Greenpoint,"77 Commercial St, Brooklyn",,,1b,3900,11222
+3,Greenpoint,"527 Leonard St, Brooklyn",,,Studio,2450,11222
+4,Greenpoint,"109 Russell St, Brooklyn",,,1b,3450,11222
+5,Greenpoint,"16 Dupont St, Brooklyn",,,1b,4395,11222
+6,Greenpoint,"87 Commercial St, Brooklyn",,,1b,4475,11222
+7,Greenpoint,"536 Graham Ave, Brooklyn",,,1b,2600,11222
+8,Greenpoint,"85 Commercial St, Brooklyn",,,1b,4157,11222
+9,Greenpoint,"150 Bayard St, Brooklyn",,,1b,2800,11222
+10,Greenpoint,"144 West St, Brooklyn",,,1b,3950,11222
+11,Greenpoint,"1 Eagle St, Brooklyn",,,1b,4686,11222
+12,Greenpoint,"150 Eagle St, Brooklyn",,,1b,3665,11222
+13,Greenpoint,"75 Dupont St, Brooklyn",,,1b,4526,11222
+14,Greenpoint,"2 Blue Slip, Brooklyn",,,1b,4494,11222
+15,Greenpoint,"163 Newell St, Brooklyn",,,1b,4000,11222
+16,Greenpoint,"300 Richardson St, Brooklyn",,,Studio,3750,11222
+17,Greenpoint,"87 Kingsland Ave, Brooklyn",,,1b,2995,11222
+18,Greenpoint,"211 McGuinness Blvd, Brooklyn",,,1b,4500,11222
+19,Greenpoint,"144 West St, Brooklyn",,,1b,4600,11222
+20,Greenpoint,"21 India St, Brooklyn",,,1b,4467,11222
+21,Greenpoint,"32 Broome St, Brooklyn",,,1b,3675,11222
+22,Greenpoint,"1 Bell Slip, Brooklyn",,,1b,4297,11222
+23,Greenpoint,"121 Calyer St, Brooklyn",,,1b,3700,11222
+24,Greenpoint,"1 Blue Slip, Brooklyn",,,1b,3710,11222
+25,Greenpoint,"492 Morgan Ave, Brooklyn",,,1b,2250,11222
+26,Greenpoint,"287 Eckford St, Brooklyn",,,Studio,2500,11222
+27,Greenpoint,"131 Noble St, Brooklyn",,,1b,4000,11222
+28,Greenpoint,"52 India St, Brooklyn",,,Studio,2600,11222
+29,Greenpoint,"101 Sutton St, Brooklyn",,,1b,2500,11222
+30,Greenpoint,"168 India St, Brooklyn",,,1b,2239,11222
+31,Greenpoint,"669 Meeker Ave, Brooklyn",,,1b,2600,11222
+32,Greenpoint,"687 Manhattan Ave, Brooklyn",,,Studio,2250,11222
+33,Greenpoint,"189 Norman Ave, Brooklyn",,,1b,2850,11222
+34,Greenpoint,"206 Kent St, Brooklyn",,,1b,4050,11222
+35,Greenpoint,"182 Franklin St, Brooklyn",,,1b,2050,11222
+36,Greenpoint,"415 Leonard St, Brooklyn",,,1b,5000,11222
+37,Greenpoint,"818 Manhattan Ave, Brooklyn",,,1b,3199,11222
+38,Greenpoint,"123 Guernsey St, Brooklyn",,,Studio,3250,11222
+39,Greenpoint,"30 Kent St, Brooklyn",,,Studio,3450,11222
+40,Greenpoint,"601 Morgan Ave, Brooklyn",,,Studio,2100,11222
+41,Greenpoint,"20 West St, Brooklyn",,,1b,3495,11222
+42,Greenpoint,"56 Jewel St, Brooklyn",,,1b,2850,11222
+43,Greenpoint,"12 Eckford St, Brooklyn",,,Studio,3450,11222
+44,Greenpoint,"1 Blue Slip, Brooklyn",,,1b,4295,11222
+45,Greenpoint,"145 McGuinness Blvd, Brooklyn",,,1b,3750,11222
+46,Greenpoint,"860 Lorimer St, Brooklyn",,,1b,4985,11222
+47, Bushwick,"307 Knickerbocker Ave, Brooklyn",,,1b,2185,11237
+48, Bushwick,"449 Irving Ave, Brooklyn",,,1b,3395,11237
+49, Bushwick,"191 Knickerbocker Ave, Brooklyn",,,1b,3000,11237
+50, Bushwick,"467 Troutman St, Brooklyn",,,1b,2700,11237
+51, Bushwick,"1357 Hancock St, Brooklyn",,,1b,3040,11237
+52, Bushwick,"364 Harman St, Brooklyn",,,1b,3500,11237
+53, Bushwick,"375 Menahan St, Brooklyn",,,1b,2700,11237
+54, Bushwick,"386 Himrod St, Brooklyn",,,1b,2599,11237
+55, Bushwick,"761 Hart St, Brooklyn",,,1b,2775,11237
+56, Bushwick,"393 Weirfield St, Brooklyn",,,1b,3200,11237
+57, Bushwick,"358 Grove St, Brooklyn",,,1b,2600,11237
+58, Bushwick,"270 Irving Ave, Brooklyn",,,1b,3000,11237
+59, Bushwick,"1493 Gates Ave, Brooklyn",,,1b,2350,11237
+60, Bushwick,"379 Knickerbocker Ave, Brooklyn",,,1b,2800,11237
+61, Bushwick,"154 Grattan St, Brooklyn",,,1b,3000,11237
+62, Bushwick,"342 Eldert St, Brooklyn",,,1b,3450,11237
+63, Bushwick,"345 Eldert St, Brooklyn",,,1b,3200,11237
+64, Bushwick,"336 Himrod St, Brooklyn",,,1b,3250,11237
+65, Bushwick,"467 Troutman St, Brooklyn",,,1b,3500,11237
+66, Bushwick,"205 Himrod St, Brooklyn",,,1b,2300,11237
+67, Bushwick,"385 Troutman St, Brooklyn",,,1b,3850,11237
+68, Bushwick,"378 Weirfield St, Brooklyn",,,1b,3200,11237
+69, Bushwick,"232 Wilson Ave, Brooklyn",,,1b,2500,11237
+70, Bushwick,"387 Bleecker St, Brooklyn",,,1b,2700,11237
+71, Bushwick,"307 Grove St, Brooklyn",,,1b,2600,11237
+72, Bushwick,"301 Covert St, Brooklyn",,,1b,3000,11237
+73, Bushwick,"300 Stanhope St, Brooklyn",,,1b,2700,11237
+74, Bushwick,"596 Jefferson Ave, Brooklyn",,,Studio,2500,11221
+75, Bushwick,"384 Kosciuszko St, Brooklyn",,,Studio,2495,11221
+76, Bushwick,"1223 Bushwick Ave, Brooklyn",,,Studio,2300,11221
+77, Bushwick,"1222 Bushwick Ave, Brooklyn",,,Studio,2250,11221
+78, Bushwick,"1110 DeKalb Ave, Brooklyn",,,Studio,2500,11221
+79, Bushwick,"1240 Madison St, Brooklyn",,,Studio,2350,11221
+80, Bushwick,"212 Malcolm X Blvd, Brooklyn",,,Studio,2600,11221
+81, Bushwick,"917 Willoughby Ave, Brooklyn",,,Studio,1600,11221
+82, Bushwick,"378 Kosciuszko St, Brooklyn",,,Studio,2200,11221
+83, Bushwick,"1013 Bushwick Ave, Brooklyn",,,1b,2750,11221
+84, Bushwick,"460 Throop Ave, Brooklyn",,,1b,2400,11221
+85, Bushwick,"949 Willoughby Ave, Brooklyn",,,1b,2900,11221
+86, Bushwick,"668 Bushwick Ave, Brooklyn",,,1b,2900,11221
+87, Bushwick,"914 Jefferson Ave, Brooklyn",,,1b,2299,11221
+88, Bushwick,"287 Cornelia St , Brooklyn",,,1b,2499,11221
+89, Bushwick,"1002 Bushwick Ave, Brooklyn",,,1b,3100,11221
+90, Bushwick,"1086 Broadway, Brooklyn",,,1b,2350,11221
+91, Bushwick,"802 Lafayette Ave, Brooklyn",,,1b,2700,11221
+92, Bushwick,"874 Willoughby Ave, Brooklyn",,,1b,2890,11221
+93, Bushwick,"1053 Jefferson Ave, Brooklyn",,,1b,2698,11221
+94, Bushwick,"1065 Lafayette Ave, Brooklyn",,,1b,2299,11221
+95, Bushwick,"875 DeKalb Ave, Brooklyn",,,1b,2499,11221
+96, Bushwick,"499 Evergreen Ave, Brooklyn",,,1b,3050,11221
+97, Bushwick,"509 Van Buren St, Brooklyn",,,1b,2500,11221
+98, Bushwick,"455 Lexington Ave, Brooklyn",,,1b,3100,11221
+99, Bushwick,"1052 Greene Ave, Brooklyn",,,1b,2800,11221
+100, Bushwick,"671 Bushwick Ave, Brooklyn",,,1b,2750,11221
+101, Bushwick,"491 Evergreen Ave, Brooklyn",,,1b,3100,11221
+102, Bushwick,"643 Madison St, Brooklyn",,,1b,2600,11221
+103, Bushwick,"1001 Bushwick Ave, Brooklyn",,,1b,2750,11221
+104, Bushwick,"1154 Myrtle Ave, Brooklyn",,,1b,2600,11221
+105, Bushwick,"1121 Putnam Ave, Brooklyn",,,1b,2900,11221
+106, Bushwick,"1209 Dekalb Ave, Brooklyn",,,1b,2795,11221
+107, Bushwick,"507 Van Buren St, Brooklyn",,,1b,2450,11221
+108, Bushwick,"511 Van Buren St, Brooklyn",,,1b,2400,11221
+109, Bushwick,"887 Lexington Ave, Brooklyn",,,1b,2625,11221
+110, Bushwick,"1119 Broadway, Brooklyn",,,1b,2275,11221
+111, Bushwick,"573 Evergreen Ave, Brooklyn",,,1b,2100,11221
+112, Bushwick,"393 Madison St, Brooklyn",,,1b,2900,11221
+113, Bushwick,"605 Hart St, Brooklyn",,,1b,3100,11221
+114, Bushwick,"8 Palmetto St, Brooklyn",,,1b,3095,11221
+115, Bushwick,"970A Gates Ave, Brooklyn",,,1b,2550,11221
+116, Bushwick,"645 Knickerbocker Ave, Brooklyn",,,1b,2799,11221
+117, Bushwick,"376 Kosciuszko St, Brooklyn",,,1b,2950,11221
+118, Bushwick,"468 Putnam Ave, Brooklyn",,,1b,2799,11221
+119, Bushwick,"536 Kosciuszko St, Brooklyn",,,1b,2700,11221
+120, Bushwick,"27 Palmetto St, Brooklyn",,,1b,3200,11221
+121, Bushwick,"463A Quincy St, Brooklyn",,,1b,2600,11221
+122, Bushwick,"876 Jefferson Ave, Brooklyn",,,1b,2350,11221
+123, Bushwick,"1003 Willoughby Ave, Brooklyn",,,1b,3000,11221
+124, Bushwick,"835 Greene Ave, Brooklyn",,,1b,2700,11221
+125, Bushwick,"441 Hart St, Brooklyn",,,1b,2300,11221
+126, Bushwick,"841 Dekalb Ave, Brooklyn",,,1b,2750,11221
+127, Bushwick,"727 Quincy St, Brooklyn",,,1b,4500,11221
+128, Bushwick,"643 Madison St, Brooklyn",,,1b,2800,11221
+129, Bushwick,"697 DeKalb Ave, Brooklyn",,,1b,2800,11221
+130, Bushwick,"1024 Gates Ave, Brooklyn",,,1b,2600,11221
+131, Bushwick,"1336 Dekalb Ave, Brooklyn",,,1b,2600,11221
+132, Bushwick,"262 Van Buren St, Brooklyn",,,1b,2300,11221
+133,Broadway Junction,"336 Chauncey St, Brooklyn,",,,Studio,2395,11233
+134,Broadway Junction,"2331 Dean St, Brooklyn",,,Studio,2200,11233
+135,Broadway Junction,"1889 Atlantic Ave, Brooklyn",,,Studio,2480,11233
+136,Broadway Junction,"750 MacDonough St, Brooklyn",,,Studio,2895,11233
+137,Broadway Junction,"1779 Fulton St, Brooklyn",,,Studio,2000,11233
+138,Broadway Junction,"448 Hancock St, Brooklyn",,,Studio,2100,11233
+139,Broadway Junction,"361 Marion St, Brooklyn",,,Studio,1995,11233
+140,Broadway Junction,"1313 Herkimer St, Brooklyn",,,Studio,2600,11233
+141,Broadway Junction,"314 Stuyvesant Ave, Brooklyn",,,1b,2850,11233
+142,Broadway Junction,"656 Hancock St, Brooklyn",,,1b,2350,11233
+143,Broadway Junction,"666 Hancock St, Brooklyn, ",,,1b,2299,11233
+144,Broadway Junction,"350 Malcolm X Blvd, Brooklyn",,,1b,2500,11233
+145,Broadway Junction,"312 Decatur St, Brooklyn",,,1b,2650,11233
+146,Broadway Junction,"1889 Atlantic Ave, Brooklyn",,,1b,2623,11233
+147,Broadway Junction,"299 Chauncey St, Brooklyn",,,1b,2600,11233
+148,Broadway Junction,"1889 Bergen St, Brooklyn",,,1b,2499,11233
+149,Broadway Junction,"1357 Eastern Pkwy, Brooklyn",,,1b,1900,11233
+150,Broadway Junction,"211 Marion St, Brooklyn",,,1b,2300,11233
+151,Broadway Junction,"17 Somers St, Brooklyn",,,1b,2500,11233
+152,Broadway Junction,"461 Hancock St, Brooklyn",,,1b,2700,11233
+153,Broadway Junction,"345 Stuyvesant Ave, Brooklyn",,,1b,2795,11233
+154,Broadway Junction,"180 Bainbridge St, Brooklyn",,,1b,3195,11233
+155,Broadway Junction,"260 Rockaway Ave, Brooklyn",,,1b,2650,11233
+156,Broadway Junction,"1965 Pacific St, Brooklyn",,,1b,2250,11233
+157,Broadway Junction,"163 Macdougal St, Brooklyn",,,1b,2750,11233
+158,Broadway Junction,"580 Decatur St, Brooklyn",,,1b,2725,11233
+159,Broadway Junction,"762 Macon St, Brooklyn",,,1b,2995,11233
+160,Broadway Junction,"51 MacDougal St, Brooklyn",,,1b,2100,11233
+161,Broadway Junction,"1893 Eastern Pkwy, Brooklyn",,,1b,2400,11233
+162,Broadway Junction,"580 Macon St, Brooklyn",,,1b,2700,11233
+163,North Side,"164 S 3rd St, Brooklyn",,,Studio,3345,11211
+164,North Side,"130 Hope St, Brooklyn",,,Studio,2004,11211
+165,North Side,"623 Union Ave, Brooklyn",,,Studio,1950,11211
+166,North Side,"250 N 10th St, Brooklyn",,,Studio,3761,11211
+167,North Side,"139 Broadway, Brooklyn",,,Studio,5495,11211
+168,North Side,"101 Bedford Ave, Brooklyn",,,Studio,3983,11211
+169,North Side,"240 Meeker Ave, Brooklyn",,,Studio,3095,11211
+170,North Side,"34 Berry St, Brooklyn",,,Studio,3094,11211
+171,North Side,"625 Driggs Ave, Brooklyn",,,Studio,4050,11211
+172,North Side,"123 Hope St, Brooklyn",,,Studio,3500,11211
+173,North Side,"247 N 7th St, Brooklyn",,,Studio,3995,11211
+174,North Side,"195 Bedford Ave, Brooklyn",,,Studio,2650,11211
+175,North Side,"395 Leonard St, Brooklyn",,,1b,4605,11211
+176,North Side,"332 Manhattan Ave, Brooklyn",,,1b,3000,11211
+177,North Side,"146 S 4th St, Brooklyn",,,1b,4448,11211
+178,North Side,"138 E 4th St, Brooklyn",,,1b,4445,11211
+179,North Side,"156 Hope St, Brooklyn",,,1b,4145,11211
+180,North Side,"828 Metropolitan Ave, Brooklyn",,,1b,4100,11211
+181,North Side,"623 Union Ave, Brooklyn",,,1b,3750,11211
+182,North Side,"286 Manhattan Ave, Brooklyn",,,1b,4000,11211
+183,North Side,"154 Hope St, Brooklyn",,,1b,4145,11211
+184,North Side,"285 Division Ave, Brooklyn",,,1b,2499,11211
+185,North Side,"250 N 10th St, Brooklyn",,,1b,4700,11211
+186,North Side,"781 Metropolitan Ave, Brooklyn",,,1b,4199,11211
+187,North Side,"8 Marcy Ave, Brooklyn",,,1b,4495,11211
+188,North Side,"140 Hope St, Brooklyn",,,1b,4145,11211
+189,North Side,"165 Marcy Ave, Brooklyn",,,1b,3995,11211
+190,North Side,"51 Olive St, Brooklyn",,,1b,3300,11211
+191,North Side,"185 S 4th St, Brooklyn",,,1b,4354,11211
+192,North Side,"319 Broadway, Brooklyn",,,1b,3400,11211
+193,North Side,"313 S 4th St, Brooklyn",,,1b,3200,11211
+194,North Side,"240 Meeker Ave, Brooklyn",,,1b,3399,11211
+195,North Side,"774 Grand St, Brooklyn",,,1b,3985,11211
+196,North Side,"125 Borinquen Pl, Brooklyn",,,1b,4547,11211
+197,North Side,"130 Hope St, Brooklyn",,,1b,4000,11211
+198,North Side,"317 Manhattan Ave, Brooklyn",,,1b,4300,11211
+199,North Side,"130 Hope St, Brooklyn",,,1b,3911,11211
+200,North Side,"265 Powers St, Brooklyn",,,1b,3000,11211
+201,North Side,"247 N 7th St, Brooklyn",,,1b,4900,11211
+202,North Side,"205 N 8th St, Brooklyn",,,1b,3970,11211
+203,North Side,"351 S 3rd St, Brooklyn",,,1b,4450,11211
+204,North Side,"221 S 4th St, Brooklyn",,,1b,4500,11211
+205,North Side,"218 N 7th St, Brooklyn",,,1b,2600,11211
+206,North Side,"365 Union Ave, Brooklyn",,,1b,4395,11211
+207,North Side,"4 Hope St, Brooklyn",,,1b,3500,11211
+208,North Side,"456 Grand St, Brooklyn",,,1b,3850,11211
+209,North Side,"8 Marcy Ave, Brooklyn",,,1b,4448,11211
+210,North Side,"544 Union Ave, Brooklyn",,,1b,4287,11211
+211,North Side,"209 Frost St, Brooklyn",,,1b,3300,11211
+212,North Side,"383 S 3rd St, Brooklyn",,,1b,2800,11211
+213,North Side,"160 Havemeyer St, Brooklyn",,,1b,2850,11211
+214,North Side,"218 N 8th St, Brooklyn",,,1b,4800,11211
+215,North Side,"113 Richardson St, Brooklyn",,,1b,2995,11211
+216,North Side,"353 Broadway, Brooklyn",,,1b,2600,11211
+217,North Side,"123 Hope St, Brooklyn",,,1b,4250,11211
+218,North Side,"219 S 4th St, Brooklyn",,,1b,4500,11211
+219,North Side,"949 Grand St, Brooklyn",,,1b,2600,11211
+220,North Side,"848 Driggs Ave, Brooklyn",,,1b,3200,11211
+221,North Side,"275 S 5th St, Brooklyn",,,1b,5300,11211
+222,North Side,"169 Frost St, Brooklyn",,,1b,3250,11211
+223,North Side,"695 Lorimer St, Brooklyn",,,1b,4700,11211
+224,North Side,"710 Grand St, Brooklyn",,,1b,4300,11211
+225,North Side,"253 S 3rd St, Brooklyn",,,1b,3400,11211
+226,North Side,"296 Hooper St, Brooklyn",,,1b,2799,11211
+227,North Side,"449 Humboldt St, Brooklyn",,,1b,3550,11211
+228,North Side,"34 Berry St, Brooklyn,",,,1b,4881,11211
+229,North Side,"390 S 2nd St, Brooklyn",,,1b,4000,11211
+230,North Side,"155 Withers St, Brooklyn",,,1b,3950,11211
+231,North Side,"134 Ainslie St, Brooklyn",,,1b,3800,11211
+232,North Side,"566 Grand St, Brooklyn",,,1b,4995,11211
+233,East Williamsburg,"265 Lorimer St, Brooklyn",,,Studio,3200,11206
+234,East Williamsburg,"255 Lorimer St, Brooklyn",,,Studio,3150,11206
+235,East Williamsburg,"27 Arion Pl, Brooklyn",,,Studio,2800,11206
+236,East Williamsburg,"123 Melrose St, Brooklyn",,,Studio,2795,11206
+237,East Williamsburg,"101 Varet St, Brooklyn",,,Studio,2999,11206
+238,East Williamsburg,"255 McKibbin St, Brooklyn",,,Studio,4500,11206
+239,East Williamsburg,"255 McKibbin St, Brooklyn",,,Studio,4000,11206
+240,East Williamsburg,"817 Willoughby Ave, Brooklyn",,,Studio,1850,11206
+241,East Williamsburg,"1100 Myrtle Ave, Brooklyn",,,Studio,3055,11206
+242,East Williamsburg,"100 Hart St, Brooklyn",,,1b,2395,11206
+243,East Williamsburg,"54 Maujer St, Brooklyn",,,1b,2695,11206
+244,East Williamsburg,"10 Montieth St, Brooklyn",,,1b,3300,11206
+245,East Williamsburg,"255 Lorimer St, Brooklyn",,,1b,3700,11206
+246,East Williamsburg,"265 Lorimer St, Brooklyn",,,1b,3475,11206
+247,East Williamsburg,"115 Stanwix St, Brooklyn",,,1b,3218,11206
+248,East Williamsburg,"210 Cook St, Brooklyn",,,1b,3270,11206
+249,East Williamsburg,"187 Meserole St, Brooklyn",,,1b,3100,11206
+250,East Williamsburg,"1100 Myrtle Ave, Brooklyn",,,1b,3055,11206
+251,East Williamsburg,"216 Boerum St, Brooklyn",,,1b,3595,11206
+252,East Williamsburg,"250 Moore St, Brooklyn",,,1b,3975,11206
+253,East Williamsburg,"207 Leonard St, Brooklyn",,,1b,3500,11206
+254,East Williamsburg,"54 Noll St, Brooklyn",,,1b,3562,11206
+255,East Williamsburg,"53 Pulaski St, Brooklyn",,,1b,2300,11206
+256,East Williamsburg,"912 Broadway, Brooklyn",,,1b,3250,11206
+257,East Williamsburg,"148 Evergreen Ave, Brooklyn",,,1b,2700,11206
+258,East Williamsburg,"163 Graham Ave, Brooklyn",,,1b,3399,11206
+259,East Williamsburg,"879 Park Ave, Brooklyn",,,1b,2225,11206
+260,East Williamsburg,"707 Willoughby Ave, Brooklyn",,,1b,3400,11206
+261,East Williamsburg,"817 Willoughby Ave, Brooklyn",,,1b,2200,11206
+262,East Williamsburg,"222 Johnson Ave, Brooklyn",,,1b,3995,11206
+263,East Williamsburg,"123 Melrose St, Brooklyn",,,1b,3350,11206
+264,East Williamsburg,"255 McKibbin St, Brooklyn",,,1b,6000,11206
+265,East Williamsburg,"255 McKibbin St, Brooklyn",,,1b,6500,11206
+266,East Williamsburg,"168 Evergreen Ave, Brooklyn",,,1b,3475,11206
+267,East Williamsburg,"168 Evergreen Ave, Brooklyn",,,1b,3300,11206
+268,East Williamsburg,"207 Johnson Ave, Brooklyn",,,1b,2899,11206
+269,East Williamsburg,"791 Flushing Ave, Brooklyn",,,1b,2950,11206
+270,East Williamsburg,"92 Meserole St, Brooklyn",,,1b,2970,11206
+271,East Williamsburg,"143 Meserole St, Brooklyn",,,1b,4595,11206
+272,East Williamsburg,"153 Heyward St, Brooklyn",,,1b,3100,11206
+273,East Williamsburg,"30 Belvidere St, Brooklyn",,,1b,2796,11206
+274,East Williamsburg,"150 Noll St, Brooklyn",,,1b,3238,11206
+275,East Williamsburg,"108 Central Ave, Brooklyn",,,1b,2300,11206
+276,East Williamsburg,"210 Meserole St, Brooklyn",,,1b,2490,11206
+277,East Williamsburg,"31 Graham Ave, Brooklyn",,,1b,2500,11206
+278,East Williamsburg,"138 Scholes St, Brooklyn",,,1b,2900,11206
+279,Clint Hill,"100 Steuben St, Brooklyn",,,Studio,2650,11205
+280,Clint Hill,"105 Grand Ave, Brooklyn",,,Studio,3400,11205
+281,Clint Hill,"58 Vanderbilt Ave, Brooklyn",,,Studio,3050,11205
+282,Clint Hill,"72 Clermont Ave, Brooklyn",,,Studio,2450,11205
+283,Clint Hill,"109 Waverly Ave, Brooklyn",,,Studio,2899,11205
+284,Clint Hill,"10 Grand Ave, Brooklyn",,,Studio,3695,11205
+285,Clint Hill,"253 Cumberland St, Brooklyn",,,Studio,2150,11205
+286,Clint Hill,"96 Steuben St, Brooklyn",,,Studio,2734,11205
+287,Clint Hill,"219 Clinton Ave, Brooklyn",,,Studio,2550,11205
+288,Clint Hill,"295 Washington Ave, Brooklyn",,,Studio,2720,11205
+289,Clint Hill,"100 Steuben St, Brooklyn",,,1b,3395,11205
+290,Clint Hill,"205 Spencer St, Brooklyn",,,1b,2750,11205
+291,Clint Hill,"180 Franklin Ave, Brooklyn",,,1b,3667,11205
+292,Clint Hill,"97 Grand Ave, Brooklyn",,,1b,3814,11205
+293,Clint Hill,"29 North Elliott Place, Brooklyn",,,1b,3500,11205
+294,Clint Hill,"10 Grand Ave, Brooklyn",,,1b,3250,11205
+295,Clint Hill,"275 Park Ave, Brooklyn, NY",,,1b,4200,11205
+296,Clint Hill,"29 N Elliot Pl, Brooklyn",,,1b,3500,11205
+297,Clint Hill,"837 Bedford Ave, Brooklyn, NY",,,1b,2350,11205
+298,Clint Hill,"96 Steuben St, Brooklyn",,,1b,3355,11205
+299,Clint Hill,"184 Adelphi St, Brooklyn",,,1b,3499,11205
+300,Clint Hill,"107 Waverly Ave, Brooklyn",,,1b,3999,11205
+301,Clint Hill,"923 Bedford Ave, Brooklyn",,,1b,2950,11205
+302,Clint Hill,"122 Ryerson St, Brooklyn",,,1b,2500,11205
+303,Clint Hill,"600 Myrtle Ave, Brooklyn",,,1b,2695,11205
+304,Clint Hill,"82 Adelphi St, Brooklyn",,,1b,3499,11205
+305,Clint Hill,"123 Park Ave, Brooklyn",,,1b,2850,11205
+306,Clint Hill,"266 Washington Ave, Brooklyn",,,1b,2999,11205
+307,Clint Hill,"253 Cumberland St, Brooklyn",,,1b,2750,11205
+308,Clint Hill,"310 Park Ave, Brooklyn",,,1b,2850,11205
+309,Clint Hill,"150 Clermont Ave, Brooklyn",,,1b,3600,11205
+310,Clint Hill,"87 Adelphi St, Brooklyn",,,1b,3300,11205
+311,Clint Hill,"490 Myrtle Ave, Brooklyn",,,1b,3401,11205
+312,Clint Hill,"130 Adelphi St, Brooklyn",,,1b,3500,11205
+313,Bedford Stuyvesant,"1261 Dean St, Brooklyn",,,Studio,2300,11216
+314,Bedford Stuyvesant,"420 Gates Ave, Brooklyn",,,Studio,2890,11216
+315,Bedford Stuyvesant,"24 Rogers Ave, Brooklyn",,,Studio,2300,11216
+316,Bedford Stuyvesant,"252 Hancock St, Brooklyn",,,Studio,2500,11216
+317,Bedford Stuyvesant,"1499 Bedford Ave, Brooklyn",,,Studio,3100,11216
+318,Bedford Stuyvesant,"905 Sterling Pl, Brooklyn",,,Studio,2295,11216
+319,Bedford Stuyvesant,"1430 Fulton St, Brooklyn",,,Studio,2599,11216
+320,Bedford Stuyvesant,"422 1/2 Gates Ave, Brooklyn",,,Studio,3050,11216
+321,Bedford Stuyvesant,"464 Greene Ave, Brooklyn",,,Studio,2599,11216
+322,Bedford Stuyvesant,"691 Marcy Ave, Brooklyn",,,Studio,2595,11216
+323,Bedford Stuyvesant,"1545 Fulton St, Brooklyn",,,Studio,2400,11216
+324,Bedford Stuyvesant,"1184 Dean St, Brooklyn",,,Studio,2100,11216
+325,Bedford Stuyvesant,"1236 Atlantic Ave, Brooklyn",,,Studio,2799,11216
+326,Bedford Stuyvesant,"1467 Bedford Ave, Brooklyn",,,Studio,2450,11216
+327,Bedford Stuyvesant,"988 Bergen St, Brooklyn",,,Studio,1950,11216
+328,Bedford Stuyvesant,"78 Herkimer St, Brooklyn",,,Studio,2400,11216
+329,Bedford Stuyvesant,"103 Jefferson Ave, Brooklyn",,,1b,3295,11216
+330,Bedford Stuyvesant,"1284 Pacific St, Brooklyn",,,1b,2890,11216
+331,Bedford Stuyvesant,"179 Putnam Ave, Brooklyn",,,1b,2300,11216
+332,Bedford Stuyvesant,"746 Lincoln Pl, Brooklyn",,,1b,2800,11216
+333,Bedford Stuyvesant,"11 Herkimer St, Brooklyn",,,1b,3550,11216
+334,Bedford Stuyvesant,"220 Lexington Ave, Brooklyn",,,1b,3100,11216
+335,Bedford Stuyvesant,"57 Herkimer St, Brooklyn",,,1b,2345,11216
+336,Bedford Stuyvesant,"1175 Fulton St, Brooklyn",,,1b,3350,11216
+337,Bedford Stuyvesant,"988 Bergen St, Brooklyn",,,1b,2275,11216
+338,Bedford Stuyvesant,"1047 Bedford Ave, Brooklyn",,,1b,3100,11216
+339,Bedford Stuyvesant,"420 Gates Ave, Brooklyn",,,1b,4245,11216
+340,Bedford Stuyvesant,"1556 Fulton St, Brooklyn",,,1b,2650,11216
+341,Bedford Stuyvesant,"1198 Bedford Ave, Brooklyn",,,1b,2750,11216
+342,Bedford Stuyvesant,"1356 Pacific St, Brooklyn",,,1b,2599,11216
+343,Bedford Stuyvesant,"130 Macon St, Brooklyn",,,1b,3600,11216
+344,Bedford Stuyvesant,"1183 Bedford Ave, Brooklyn",,,1b,3350,11216
+345,Bedford Stuyvesant,"619 Throop Ave, Brooklyn",,,1b,3350,11216
+346,Bedford Stuyvesant,"1076 Dean St, Brooklyn",,,1b,2400,11216
+347,Bedford Stuyvesant,"772 Saint Johns Pl, Brooklyn",,,1b,2999,11216
+348,Bedford Stuyvesant,"57 Herkimer St, Brooklyn",,,1b,2299,11216
+349,Bedford Stuyvesant,"948 Bergen St, Brooklyn",,,1b,2750,11216
+350,Bedford Stuyvesant,"649 Prospect Pl, Brooklyn",,,1b,2650,11216
+351,Bedford Stuyvesant,"142 Macon St, Brooklyn",,,1b,2650,11216
+352,Bedford Stuyvesant,"24 Rogers Ave, Brooklyn",,,1b,2412,11216
+353,Bedford Stuyvesant,"189 Jefferson Ave, Brooklyn",,,1b,3200,11216
+354,Bedford Stuyvesant,"1516 Fulton St, Brooklyn",,,1b,2799,11216
+355,Bedford Stuyvesant,"93 Halsey St, Brooklyn",,,1b,2895,11216
+356,Bedford Stuyvesant,"745 Lincoln Pl, Brooklyn",,,1b,2700,11216
+357,Bedford Stuyvesant,"341 Eastern Pkwy, Brooklyn",,,1b,3667,11216
+358,Bedford Stuyvesant,"1185 Dean St, Brooklyn",,,1b,3250,11216
+359,Bedford Stuyvesant,"350 Greene Ave, Brooklyn",,,1b,3100,11216
+360,Bedford Stuyvesant,"30 Rogers Ave, Brooklyn",,,1b,2300,11216
+361,Bedford Stuyvesant,"814 Saint Johns Pl, Brooklyn",,,1b,2699,11216
+362,Bedford Stuyvesant,"647 Prospect Pl, Brooklyn",,,1b,2800,11216
+363,Bedford Stuyvesant,"409 Eastern Pkwy, Brooklyn",,,1b,4250,11216
+364,Bedford Stuyvesant,"788 Park Pl, Brooklyn",,,1b,2250,11216
+365,Bedford Stuyvesant,"152 Macon St, Brooklyn",,,1b,2750,11216
+366,Bedford Stuyvesant,"349 Nostrand Ave, Brooklyn",,,1b,2300,11216
+367,Bedford Stuyvesant,"6 MacDonough St, Brooklyn",,,1b,2850,11216
+368,Bedford Stuyvesant,"652 Lafayette Ave, Brooklyn",,,1b,2900,11216
+369,Bedford Stuyvesant,"1214 Dean St, Brooklyn",,,1b,2700,11216
+370,Bedford Stuyvesant,"1328 Fulton St, Brooklyn",,,1b,3100,11216
+371,Bedford Stuyvesant,"615 Lincoln Pl, Brooklyn",,,1b,3000,11216
+372,Bedford Stuyvesant,"101 Halsey St, Brooklyn",,,1b,3000,11216
+373,Prospect Heights,"580 Classon Ave, Brooklyn",,,Studio,2799,11238
+374,Prospect Heights,"787 Franklin Ave, Brooklyn",,,Studio,2800,11238
+375,Prospect Heights,"269 Prospect Pl, Brooklyn",,,Studio,2195,11238
+376,Prospect Heights,"520 Lincoln Pl, Brooklyn",,,Studio,1995,11238
+377,Prospect Heights,"595 Dean St, Brooklyn",,,Studio,3405,11238
+378,Prospect Heights,"195 Underhill Ave, Brooklyn",,,Studio,2598,11238
+379,Prospect Heights,"390 Lafayette Ave, Brooklyn",,,Studio,2500,11238
+380,Prospect Heights,"396 Waverly Ave, Brooklyn",,,Studio,2850,11238
+381,Prospect Heights,"487 Saint Marks Ave, Brooklyn",,,Studio,1995,11238
+382,Prospect Heights,"397 Clermont Ave, Brooklyn",,,Studio,2750,11238
+383,Prospect Heights,"499 Washington Ave, Brooklyn",,,Studio,3000,11238
+384,Prospect Heights,"834 Pacific St, Brooklyn",,,Studio,3100,11238
+385,Prospect Heights,"564 Saint Johns Pl, Brooklyn",,,Studio,2050,11238
+386,Prospect Heights,"545 Vanderbilt Ave, Brooklyn",,,Studio,3495,11238
+387,Prospect Heights,"550 Clinton Ave, Brooklyn",,,Studio,2010,11238
+388,Prospect Heights,"306 Saint James Pl, Brooklyn",,,Studio,2980,11238
+389,Prospect Heights,"363 Prospect Pl, Brooklyn",,,Studio,2950,11238
+390,Prospect Heights,"35 Eastern Pkwy, Brooklyn",,,Studio,2595,11238
+391,Prospect Heights,"487 Clinton Ave, Brooklyn",,,Studio,2495,11238
+392,Prospect Heights,"325 Lafayette Ave, Brooklyn",,,Studio,3021,11238
+393,Prospect Heights,"555 Waverly Ave, Brooklyn",,,Studio,2700,11238
+394,Prospect Heights,"531 Vanderbilt Ave, Brooklyn",,,Studio,2700,11238
+395,Prospect Heights,"499 Vanderbilt Ave, Brooklyn",,,Studio,2800,11238
+396,Prospect Heights,"475 Clermont Ave, Brooklyn",,,Studio,3116,11238
+397,Prospect Heights,"454 Classon Ave, Brooklyn",,,Studio,2195,11238
+398,Prospect Heights,"396 Waverly Ave, Brooklyn",,,1b,3750,11238
+399,Prospect Heights,"260 Saint James Pl, Brooklyn",,,1b,2550,11238
+400,Prospect Heights,"834 Pacific St, Brooklyn",,,1b,4450,11238
+401,Prospect Heights,"550 Prospect Pl, Brooklyn",,,1b,3900,11238
+402,Prospect Heights,"195 Sterling Pl, Brooklyn",,,1b,3900,11238
+403,Prospect Heights,"437 Franklin Ave, Brooklyn",,,1b,3272,11238
+404,Prospect Heights,"615 Saint Johns Pl, Brooklyn",,,1b,2800,11238
+405,Prospect Heights,"542 Saint Marks Ave, Brooklyn",,,1b,3300,11238
+406,Prospect Heights,"372 Grand Ave, Brooklyn",,,1b,3400,11238
+407,Prospect Heights,"943 Bergen St, Brooklyn",,,1b,3650,11238
+408,Prospect Heights,"667 Classon Ave, Brooklyn",,,1b,3453,11238
+409,Prospect Heights,"25 Cambridge Pl, Brooklyn",,,1b,3400,11238
+410,Prospect Heights,"555 Waverly Ave, Brooklyn",,,1b,3401,11238
+411,Prospect Heights,"71 Underhill Ave, Brooklyn",,,1b,2850,11238
+412,Prospect Heights,"363 Prospect Pl, Brooklyn",,,1b,3600,11238
+413,Prospect Heights,"125 Saint James Pl, Brooklyn",,,1b,3150,11238
+414,Prospect Heights,"108 Downing St, Brooklyn",,,1b,4300,11238
+415,Prospect Heights,"221 Saint James Pl, Brooklyn",,,1b,3375,11238
+416,Prospect Heights,"285 Saint Johns Pl, Brooklyn",,,1b,2495,11238
+417,Prospect Heights,"187 Lefferts Pl, Brooklyn",,,1b,3850,11238
+418,Prospect Heights,"1071 Fulton St, Brooklyn",,,1b,3300,11238
+419,Brooklyn Heights,"343 Gold St, Brooklyn",,,Studio,3170,11201
+420,Brooklyn Heights,"214 Duffield St, Brooklyn",,,Studio,3580,11201
+421,Brooklyn Heights,"100 Willoughby St, Brooklyn",,,Studio,3310,11201
+422,Brooklyn Heights,"160 Front St, Brooklyn",,,Studio,3736,11201
+423,Brooklyn Heights,"111 Lawrence St, Brooklyn",,,Studio,2941,11201
+424,Brooklyn Heights,"225 Schermerhorn St, Brooklyn",,,Studio,3400,11201
+425,Brooklyn Heights,"236 Henry St, Brooklyn",,,Studio,3200,11201
+426,Brooklyn Heights,"69 Adams St, Brooklyn",,,Studio,3397,11201
+427,Brooklyn Heights,"218 Front St, Brooklyn",,,Studio,4115,11201
+428,Brooklyn Heights,"33 Bond St, Brooklyn",,,Studio,3045,11201
+429,Brooklyn Heights,"22 Chapel St, Brooklyn",,,Studio,3190,11201
+430,Brooklyn Heights,"246 Pacific St, Brooklyn",,,Studio,4300,11201
+431,Brooklyn Heights,"196 Willoughby St, Brooklyn",,,Studio,3009,11201
+432,Brooklyn Heights,"120 Nassau St, Brooklyn",,,Studio,2995,11201
+433,Brooklyn Heights,"63 Schermerhorn St, Brooklyn",,,Studio,2900,11201
+434,Brooklyn Heights,"81 Fleet Pl, Brooklyn",,,Studio,3218,11201
+435,Brooklyn Heights,"277 Gold St, Brooklyn",,,Studio,3225,11201
+436,Brooklyn Heights,"15 Wyckoff St, Brooklyn",,,Studio,2975,11201
+437,Brooklyn Heights,"388 Bridge St, Brooklyn",,,Studio,3350,11201
+438,Brooklyn Heights,"11 Hoyt St, Brooklyn",,,Studio,3850,11201
+439,Brooklyn Heights,"109 Gold St, Brooklyn",,,Studio,3400,11201
+440,Brooklyn Heights,"99 Fleet Pl, Brooklyn",,,Studio,3987,11201
+441,Brooklyn Heights,"98 Front St, Brooklyn",,,Studio,3495,11201
+442,Brooklyn Heights,"55 Fleet St, Brooklyn",,,Studio,4155,11201
+443,Brooklyn Heights,"60 Water St, Brooklyn",,,Studio,3370,11201
+444,Brooklyn Heights,"86 Fleet Pl, Brooklyn",,,Studio,3327,11201
+445,Brooklyn Heights,"365 Bridge St, Brooklyn",,,Studio,4700,11201
+446,Brooklyn Heights,"248 Duffield St, Brooklyn",,,Studio,3925,11201
+447,Brooklyn Heights,"257 Gold St, Brooklyn",,,Studio,3100,11201
+448,Brooklyn Heights,"55 Fleet St, Brooklyn",,,Studio,4000,11201
+449,Brooklyn Heights,"107 Columbia Hts, Brooklyn",,,Studio,3625,11201
+450,Brooklyn Heights,"177 Congress St, Brooklyn",,,Studio,2800,11201
+451,Brooklyn Heights,"290 Clinton St, Brooklyn",,,Studio,2200,11201
+452,Brooklyn Heights,"178 Clinton St, Brooklyn",,,Studio,2800,11201
+453,Brooklyn Heights,"124 Columbia Hts, Brooklyn",,,Studio,4500,11201
+454,Brooklyn Heights,"89 Hicks St, Brooklyn",,,Studio,2969,11201
+455,Brooklyn Heights,"80 Cranberry St, Brooklyn",,,Studio,3300,11201
+456,Brooklyn Heights,"270 Jay St, Brooklyn",,,Studio,2650,11201
+457,Brooklyn Heights,"222 Hicks St, Brooklyn",,,Studio,3150,11201
+458,Brooklyn Heights,"100 Jay St, Brooklyn",,,Studio,3350,11201
+459,Brooklyn Heights,"20 Henry St, Brooklyn",,,Studio,3995,11201
+460,Brooklyn Heights,"79 Bridge St, Brooklyn",,,Studio,3850,11201
+461,Brooklyn Heights,"343 Gold St, Brooklyn",,,1b,3635,11201
+462,Brooklyn Heights,"100 Willoughby St, Brooklyn",,,1b,4057,11201
+463,Brooklyn Heights,"160 Front St, Brooklyn",,,1b,4472,11201
+464,Brooklyn Heights,"180 Montague St, Brooklyn",,,1b,4050,11201
+465,Brooklyn Heights,"111 Lawrence St, Brooklyn",,,1b,3958,11201
+466,Brooklyn Heights,"225 Schermerhorn St, Brooklyn",,,1b,4113,11201
+467,Brooklyn Heights,"69 Adams St, Brooklyn",,,1b,4886,11201
+468,Brooklyn Heights,"218 Front St, Brooklyn",,,1b,4685,11201
+469,Brooklyn Heights,"33 Bond St, Brooklyn",,,1b,4075,11201
+470,Brooklyn Heights,"22 Chapel St, Brooklyn",,,1b,4150,11201
+471,Brooklyn Heights,"248 Duffield St, Brooklyn",,,1b,4550,11201
+472,Brooklyn Heights,"43 Duffield St, Brooklyn",,,1b,2399,11201
+473,Brooklyn Heights,"195 Court St, Brooklyn",,,1b,3750,11201
+474,Brooklyn Heights,"292 State St, Brooklyn",,,1b,3500,11201
+475,Brooklyn Heights,"1 City Point, Brooklyn",,,1b,4700,11201
+476,Brooklyn Heights,"196 Willoughby St, Brooklyn",,,1b,4174,11201
+477,Brooklyn Heights,"81 Fleet Pl, Brooklyn",,,1b,4325,11201
+478,Brooklyn Heights,"540 Fulton St, Brooklyn",,,1b,4495,11201
+479,Brooklyn Heights,"277 Gold St, Brooklyn",,,1b,3500,11201
+480,Brooklyn Heights,"257 Gold St, Brooklyn",,,1b,4100,11201
+481,Brooklyn Heights,"55 Fleet St, Brooklyn",,,1b,5325,11201
+482,Brooklyn Heights,"45 Hoyt St, Brooklyn",,,1b,4301,11201
+483,Brooklyn Heights,"60 Duffield St, Brooklyn",,,1b,4200,11201
+484,Brooklyn Heights,"307 Atlantic Ave, Brooklyn",,,1b,4075,11201
+485,Brooklyn Heights,"70 Remsen St, Brooklyn",,,1b,5900,11201
+486,Brooklyn Heights,"175 Adams St, Brooklyn",,,1b,3850,11201
+487,Brooklyn Heights,"415 Red Hook Lane, Brooklyn",,,1b,5334,11201
+488,Brooklyn Heights,"100 Jay St, Brooklyn",,,1b,4500,11201
+489,Brooklyn Heights,"109 Gold St, Brooklyn",,,1b,4200,11201
+490,Brooklyn Heights,"80 Dekalb Ave, Brooklyn",,,1b,4099,11201
+491,Brooklyn Heights,"260 Gold St, Brooklyn",,,1b,4675,11201
+492,Brooklyn Heights,"99 Fleet Pl, Brooklyn",,,1b,4128,11201
+493,Brooklyn Heights,"17 Hanover Pl, Brooklyn",,,1b,4350,11201
+494,Brooklyn Heights,"99 Gold St, Brooklyn",,,1b,5100,11201
+495,Brooklyn Heights,"86 Fleet Pl, Brooklyn",,,1b,4733,11201
+496,Brooklyn Heights,"309 Gold St, Brooklyn",,,1b,4100,11201
+497,Brooklyn Heights,"70 Washington St, Brooklyn",,,1b,8000,11201
+498,Brooklyn Heights,"65 Washington St, Brooklyn",,,1b,4675,11201
+499,Brooklyn Heights,"265 Clinton St, Brooklyn",,,1b,3850,11201
+500,Brooklyn Heights,"145 Henry St, Brooklyn",,,1b,4950,11201
+501,Brooklyn Heights,"290 Clinton St, Brooklyn",,,1b,2800,11201
+502,Brooklyn Heights,"147 Montague St, Brooklyn",,,1b,3600,11201
+503,Brooklyn Heights,"189 Schermerhorn St, Brooklyn",,,1b,3500,11201
+504,Brooklyn Heights,"110 Livingston St, Brooklyn",,,1b,3895,11201
+505,Brooklyn Heights,"31 Monroe Pl, Brooklyn",,,1b,4750,11201
+506,Brooklyn Heights,"53 Duffield St, Brooklyn",,,1b,2700,11201
+507,Brooklyn Heights,"100 Baltic St, Brooklyn",,,1b,3000,11201
+508,Brooklyn Heights,"150 Myrtle Ave, Brooklyn",,,1b,3800,11201
+509,Brooklyn Heights,"3 Pierrepont, Brooklyn",,,1b,14000,11201
+510,Brooklyn Heights,"60 Water St, Brooklyn",,,1b,5595,11201
+511,Brooklyn Heights,"49 Willow St, Brooklyn",,,1b,2995,11201
+512,Brooklyn Heights,"156 Montague St, Brooklyn",,,1b,3600,11201
+513,Brooklyn Heights,"93 Hicks St, Brooklyn",,,1b,3675,11201
+514,Brooklyn Heights,"55 Fleet St, Brooklyn",,,1b,5150,11201
+515,Brooklyn Heights,"120 Nassau St, Brooklyn",,,1b,3995,11201
+516,Brooklyn Heights,"365 Bridge St, Brooklyn",,,1b,4995,11201
+517,Brooklyn Heights,"92 Clark St, Brooklyn",,,1b,2900,11201
+518,Brooklyn Heights,"68 Livingston St, Brooklyn",,,1b,4395,11201
+519,Brooklyn Heights,"42 Sidney Pl, Brooklyn",,,1b,3700,11201
+520,Brooklyn Heights,"319 Baltic St, Brooklyn",,,1b,2995,11201
+521,Brooklyn Heights,"30 Washington St, Brooklyn",,,1b,4675,11201
+522,Brooklyn Heights,"220 Water St, Brooklyn",,,1b,4695,11201
+523,Brooklyn Heights,"306 Gold St, Brooklyn",,,1b,4475,11201
+524,Brooklyn Heights,"138 Willoughby St, Brooklyn",,,1b,5500,11201
+525,Brooklyn Heights,"155 Smith St, Brooklyn",,,1b,4500,11201
+526,Brooklyn Heights,"85 Adams St, Brooklyn",,,1b,4695,11201
+527,Boerum Hill,"461 Dean St, Brooklyn",,,Studio,3475,11217
+528,Boerum Hill,"250 Ashland Pl, Brooklyn",,,Studio,3608,11217
+529,Boerum Hill,"375 Dean St, Brooklyn",,,Studio,3099,11217
+530,Boerum Hill,"1 Flatbush Ave, Brooklyn",,,Studio,3250,11217
+531,Boerum Hill,"413 Pacific St, Brooklyn",,,Studio,2600,11217
+532,Boerum Hill,"333 Schermerhorn St, Brooklyn",,,Studio,3581,11217
+533,Boerum Hill,"150 4th Ave, Brooklyn",,,Studio,3400,11217
+534,Boerum Hill,"578 Atlantic Ave, Brooklyn",,,Studio,3000,11217
+535,Boerum Hill,"558 Fulton St, Brooklyn",,,Studio,3400,11217
+536,Boerum Hill,"1 Flatbush Ave, Brooklyn",,,Studio,3629,11217
+537,Boerum Hill,"505 State St, Brooklyn",,,Studio,3915,11217
+538,Boerum Hill,"66 Rockwell Pl, Brooklyn",,,Studio,3600,11217
+539,Boerum Hill,"470 Dean St, Brooklyn",,,Studio,3400,11217
+540,Boerum Hill,"18 6th Ave, Brooklyn",,,Studio,3275,11217
+541,Boerum Hill,"300 Ashland Pl, Brooklyn",,,Studio,3645,11217
+542,Boerum Hill,"410 State St, Brooklyn",,,Studio,2595,11217
+543,Boerum Hill,"101 S Oxford St, Brooklyn",,,Studio,2500,11217
+544,Boerum Hill,"10 Nevins St, Brooklyn",,,Studio,3350,11217
+545,Boerum Hill,"61 Dean St, Brooklyn",,,1b,4095,11217
+546,Boerum Hill,"316 Bergen St, Brooklyn",,,1b,4113,11217
+547,Boerum Hill,"250 Ashland Pl, Brooklyn",,,1b,4344,11217
+548,Boerum Hill,"375 Dean St, Brooklyn",,,1b,3799,11217
+549,Boerum Hill,"1 Flatbush Ave, Brooklyn",,,1b,4315,11217
+550,Boerum Hill,"399 Atlantic Ave, Brooklyn",,,1b,3600,11217
+551,Boerum Hill,"333 Schermerhorn St, Brooklyn",,,1b,4268,11217
+552,Boerum Hill,"66 Rockwell Pl, Brooklyn",,,1b,4600,11217
+553,Boerum Hill,"30 7th Ave, Brooklyn",,,1b,4200,11217
+554,Boerum Hill,"662 Pacific St, Brooklyn",,,1b,4150,11217
+555,Boerum Hill,"505 State St, Brooklyn",,,1b,4200,11217
+556,Boerum Hill,"18 6th Ave, Brooklyn",,,1b,4125,11217
+557,Boerum Hill,"595 Baltic St, Brooklyn",,,1b,3750,11217
+558,Boerum Hill,"577 Baltic St, Brooklyn",,,1b,3650,11217
+559,Boerum Hill,"310 Livingston St, Brooklyn",,,1b,4495,11217
+560,Boerum Hill,"470 Dean St, Brooklyn",,,1b,4850,11217
+561,Boerum Hill,"10 Nevins St, Brooklyn",,,1b,4200,11217
+562,Boerum Hill,"535 Atlantic Ave, Brooklyn",,,1b,3750,11217
+563,Boerum Hill,"716 Sackett St, Brooklyn",,,1b,3200,11217
+564,Boerum Hill,"19 Prospect Pl, Brooklyn",,,1b,2999,11217
+565,Boerum Hill,"82 4th Ave, Brooklyn",,,1b,2910,11217
+566,Boerum Hill,"89 Saint Marks Ave, Brooklyn",,,1b,3000,11217
+567,Boerum Hill,"625 Baltic St, Brooklyn",,,1b,3350,11217
+568,Boerum Hill,"111 Prospect Pl, Brooklyn",,,1b,2500,11217
+569,Boerum Hill,"159 5th Ave, Brooklyn",,,1b,3272,11217
+570,Boerum Hill,"99 S Oxford St, Brooklyn",,,1b,3400,11217
+571,South Park Slope,"420 Carroll St, Brooklyn",,,Studio,3435,11215
+572,South Park Slope,"317 9th St, Brooklyn",,,Studio,2400,11215
+573,South Park Slope,"237 11th St, Brooklyn",,,Studio,2628,11215
+574,South Park Slope,"435 7th Ave, Brooklyn",,,Studio,2500,11215
+575,South Park Slope,"1 Prospect Park, Brooklyn",,,Studio,2582,11215
+576,South Park Slope,"845 President St, Brooklyn",,,Studio,2466,11215
+577,South Park Slope,"195 Garfield Pl, Brooklyn",,,Studio,2500,11215
+578,South Park Slope,"12 Whitwell Pl, Brooklyn",,,Studio,3999,11215
+579,South Park Slope,"466 15th St, Brooklyn",,,Studio,3495,11215
+580,South Park Slope,"421 Carroll St, Brooklyn",,,1b,5260,11215
+581,South Park Slope,"141 17th St, Brooklyn",,,1b,3200,11215
+582,South Park Slope,"763 Union St, Brooklyn",,,1b,3500,11215
+583,South Park Slope,"463 4th Ave, Brooklyn",,,1b,3195,11215
+584,South Park Slope,"439 9th St, Brooklyn",,,1b,3250,11215
+585,South Park Slope,"278 6th St, Brooklyn",,,1b,3500,11215
+586,South Park Slope,"647 Carroll St, Brooklyn",,,1b,4000,11215
+587,South Park Slope,"202 8th St, Brooklyn",,,1b,3800,11215
+588,South Park Slope,"569 7th St, Brooklyn",,,1b,3500,11215
+589,South Park Slope,"882 Union St, Brooklyn",,,1b,6500,11215
+590,South Park Slope,"267 6th St, Brooklyn",,,1b,3800,11215
+591,South Park Slope,"237 11th St, Brooklyn",,,1b,3443,11215
+592,South Park Slope,"359 15th St, Brooklyn",,,1b,3305,11215
+593,South Park Slope,"554 4th Ave, Brooklyn",,,1b,3800,11215
+594,South Park Slope,"230 16th St, Brooklyn",,,1b,4200,11215
+595,South Park Slope,"500 4th Ave, Brooklyn",,,1b,3750,11215
+596,South Park Slope,"574 7th St, Brooklyn",,,1b,3150,11215
+597,South Park Slope,"262 9th St, Brooklyn",,,1b,5200,11215
+598,South Park Slope,"1718 8th Ave, Brooklyn",,,1b,2750,11215
+599,South Park Slope,"274 9th St, Brooklyn",,,1b,3450,11215
+600,South Park Slope,"133 17th St, Brooklyn",,,1b,2700,11215
+601,South Park Slope,"90 15th St, Brooklyn",,,1b,3200,11215
+602,South Park Slope,"1671 8th Ave, Brooklyn",,,1b,3350,11215
+603,South Park Slope,"693 10th St, Brooklyn",,,1b,3950,11215
+604,South Park Slope,"439 17th St, Brooklyn",,,1b,2800,11215
+605,South Park Slope,"647 President St, Brooklyn",,,1b,2550,11215
+606,South Park Slope,"325 1st St, Brooklyn",,,1b,3500,11215
+607,South Park Slope,"178 18th St, Brooklyn",,,1b,2850,11215
+608,South Park Slope,"21 Polhemus Pl, Brooklyn",,,1b,3499,11215
+609,South Park Slope,"158 15th St, Brooklyn",,,1b,3900,11215
+610,South Park Slope,"166 2nd Ave, Brooklyn",,,1b,5295,11215
+611,South Park Slope,"800 Union St, Brooklyn",,,1b,6450,11215
+612,South Park Slope,"264 6th Ave, Brooklyn",,,1b,3100,11215
+613,South Park Slope,"169 16th St, Brooklyn",,,1b,4000,11215
+614,South Park Slope,"38 Prospect Park, Brooklyn",,,1b,3250,11215
+615,South Park Slope,"399 1st Street, Brooklyn",,,1b,7200,11215
+616,South Park Slope,"756 Union St, Brooklyn",,,1b,5000,11215
+617,South Park Slope,"282 18th St, Brooklyn",,,1b,2495,11215
+618,Gowanus,"30 Cheever Pl, Brooklyn",,,Studio,2700,11231
+619,Gowanus,"365 Bond St, Brooklyn",,,Studio,3085,11231
+620,Gowanus,"363 Bond St, Brooklyn",,,Studio,3595,11231
+621,Gowanus,"89 Summit St, Brooklyn",,,1b,2800,11231
+622,Gowanus,"88 Pioneer St, Brooklyn",,,1b,2850,11231
+623,Gowanus,"365 Bond St, Brooklyn",,,1b,4195,11231
+624,Gowanus,"96 3rd Pl, Brooklyn",,,1b,3800,11231
+625,Gowanus,"586 Henry St, Brooklyn",,,1b,3950,11231
+626,Gowanus,"157 Columbia St, Brooklyn",,,1b,2750,11231
+627,Gowanus,"356 Union St, Brooklyn",,,1b,3150,11231
+628,Gowanus,"335 Union St, Brooklyn",,,1b,3950,11231
+629,Gowanus,"149 W 9th St, Brooklyn",,,1b,3350,11231
+630,Gowanus,"259 Columbia St, Brooklyn",,,1b,2900,11231
+631,Gowanus,"159 Kane St, Brooklyn",,,1b,3195,11231
+632,Gowanus,"251 Kane St, Brooklyn",,,1b,4200,11231
+633,Gowanus,"104 Luquer St, Brooklyn",,,1b,3650,11231
+634,Gowanus,"129 Carroll St, Brooklyn",,,1b,3300,11231
+635,Gowanus,"360 Smith St, Brooklyn",,,1b,4695,11231
+636,Gowanus,"449 Henry St, Brooklyn",,,1b,4950,11231
+637,Gowanus,"64 4th Pl, Brooklyn",,,1b,4000,11231
+638,Gowanus,363 Bond Street ,,,1b,3935,11231
+639,Gowanus,"373 Columbia St, Brooklyn",,,1b,2400,11231
+639,Gowanus,"31 3rd Pl, Brooklyn",,,1b,3200,11231
