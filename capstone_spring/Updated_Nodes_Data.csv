@@ -1,0 +1,185 @@
+ID,Label,Poi,Tag01,Tag02,Tag03,Tag04,Tag05,Tag06,Tag07,Latitude,Longitude
+1,"A Dominican-inspired brunch spot that turns into a lively party with DJs, karaoke, and board games. Garlic parm wings steal the show, and birthdays feel like a true celebration. ""Fight Night!"" energy on event nights.","Kafe
+",Brunch,LateNight,GarlicParmWings,Cocktails,KaraokeNights,Dominican,BoardGames,40.69668758678260,-73.90045930889770
+2,"A sunlit café where locals return daily for rich coffee and perfectly made bacon, egg & cheese or lox bagels. Fast service, familiar faces, and a warm welcome make every visit feel special.","Brooklyn Barista
+",Cafe,Breakfast,Bagels,Coffee,Affordable,FastService,LocalFavorite,40.69743593848330,-73.90689661024210
+3,"A cozy café perfect for working, unwinding, or a relaxed brunch. Known for smooth lattes, fluffy pancakes, and a top-notch bacon, egg & cheese. Friendly staff and free coffee Wednesdays make it extra inviting.","Ridgewood’s Cafe & Lounge
+",Cafe,Brunch,Lattes,BaconEggCheese,Cozy,WorkFriendly,Affordable,40.70252857983070,-73.91182717950680
+4,"A sunlit café with vintage wooden tables, lush greenery, and rustic charm. Taro lattes, golden croissants, and fresh juices pair with hearty vegetarian plates in a pet-friendly, cozy space.","Tikal cafe
+",Cafe,Vegetarian,Coffee,JuiceBar,PetFriendly,CozyVibe,SeasonalDrinks,40.691384913777700,-73.90488948690290
+5,"A cute café with a heartfelt touch, serving Filipino brunch favorites like Tapsilog and ube lattes. Thoughtful details, from warm decor to pop-punk playlists, make every visit feel extra special.","Café Pri
+",Cafe,Brunch,Filipino,UbeLatte,Waffles,Cute,Thoughtful,40.69026228112110,-73.90611257415830
+6,"A no-seating coffee spot with bold brews, tamales on occasion, and a bacon egg and cheese that gets people talking. A morning pitstop with a punch.","La Raza Cafe
+",Cafe,Coffee,TakeoutOnly,LocalFavorite,Tamales,BoldFlavors,MorningStop,40.6946550837179,-73.90272226211700
+7,"A quirky, art-filled café with a DIY charm, known for late-night hours, open mics, and community events. A go-to for creatives, though the space can feel cluttered and coffee quality is hit-or-miss.","Caffeine Underground
+",Cafe,LateNight,Events,CreativeSpace,OpenMic,Artsy,Casual,40.69249125789120,-73.91445960823500
+8,"A bakery-café where vintage trinkets, nostalgic books, and art-covered walls set a creative, cozy scene. Known for custom cakes, black sesame hojicha lattes, and oversized croissants in a welcoming, dog-friendly space.","Saint Michel Cafe
+",Cafe,Bakery,Coffee,CustomCakes,DogFriendly,ArtfulPastries,CozyVibe,40.695989136802,-73.908816240723
+9,"A stylish, modern café with a welcoming vibe, serving Dominican breakfast and rich vanilla lattes. Friendly staff, trendy decor, and flavorful mangú make it a standout for locals and visitors alike.","AromaHaven Cafe
+",Cafe,Breakfast,Dominican,Coffee,FriendlyService,Trendy,Clean,40.6975779658796,-73.92399058320490
+10,"A vibrant spot with live music, mojitos made with fresh fruit, and Latin flavors like chorizo sandwiches and churrasco. Perfect for a lively dinner or weekend drinks, though prices can be steep.","Cafe Rum
+",LatinFood,Dinner,Mojitos,LiveMusic,Vibrant,Drinks,Lively,40.69521551463940,-73.90299466416450
+11,"The smell of rich espresso lingers as Carlos greets guests like old friends. A warm nook for quiet mornings, where a perfectly brewed coffee and a hearty breakfast feel like a small luxury.","Merv’s Cafe
+",Coffee,CozyCorner,FriendlyService,new,MorningVibes,TastyFood,BushwickEats,40.69996489086330,-73.91576865621830
+12,"A vibrant café with standout breakfast sandwiches, Nutella lattes, and a cozy patio. A neighborhood favorite for art shows, live comedy, and a laid-back community atmosphere.","House Party Cafe & Lounge
+",Cafe,BreakfastSandwiches,SpecialtyLattes,CommunityHub,LiveComedy,ArtEvents,Outdoor,40.68888254633980,-73.91623099909730
+13,"A bright spot near the park, blending a café and market with gourmet sandwiches, house-made pantry staples, and creative drinks like tonic cold brew. A go-to for quality coffee and specialty goods.","General Irving
+",Cafe,GourmetSandwiches,Coffee,Market,CreativeDrinks,SunlitSpace,ParkView,40.6921040299312,-73.90923579813990
+14,"A no-frills Dominican diner where the scent of home-cooked food fills the block, and the cook flips tostones with bare hands like a backyard family gathering. Mangu so thick and creamy, it could hold up a fork.","International Coffee Shop
+",Cafe,Breakfast,Dominican,Homestyle,LocalFavorite,Affordable,ComfortFood,40.700799292861000,-73.89831191388950
+15,"A sleek, minimalist café celebrating Ecuadorian culture with unique drinks like the Raíces and Cocada. Known for quality coffee, rotating art displays, and a welcoming space for locals and visitors alike.","Cholita
+",Cafe,Coffee,Ecuadorian,Minimalist,ArtSpace,SpecialtyDrinks,Quality,40.701840411284,-73.90329009359590
+16,"A coffee spot inside a supermarket with solid drinks, Wi-Fi, and quick service. Ideal for a caffeine fix while shopping or a short break by the window.","Peet's Coffee
+
+",Cafe,Coffee,GrabAndGo,Supermarket,WiFi,QuickService,BarSeating,40.69995337216020,-73.90539294536840
+17,"A plant-filled café with meticulously crafted espresso, housemade croissants, and a seasonal drink menu that keeps regulars coming back. The vegan donuts surprise even non-vegans, and the baristas take their time to perfect every cup.","HEADREST COFFEE
+",Plants,HousemadeCroissants,SeasonalDrinks,VeganDonuts,Matcha,Espresso,Bushwick,40.70014396497190,-73.91590971388950
+18,"The lavender latte was so delicate, it felt like drinking a flower. Their açaí bowl? The perfect consistency. A chill corner of Bushwick for slow mornings and good conversations.",Tikal cafe 2,LavenderLatte,AcaiBowl,BushwickEats,CoffeeCulture,SlowMornings,CafeVibes,,40.698395157544,-73.92095226660930
+19,"A tiny walk-up café with Brooklyn-roasted beans, Vietnamese iced coffee, and bagel sandwiches with sprouts and house-made sauces. The street-side counter turns coffee runs into quick chats with neighbors.","Mixtape Bushwick
+",Cafe,ColdBrew,Bagels,WalkUpWindow,VietnameseCoffee,NeighborhoodSpot,StreetVibes,40.69966406424850,-73.9139892523217
+20,"The lavender matcha has a nostalgic, cereal-like sweetness. The spacious setup is perfect for working, with a sunny backyard and friendly baristas who remember regulars by name.","Lazy Suzy Cafe & Shop
+",Matcha,Lavender,Bushwick,Cafe,Workspace,Backyard,Baristas,40.69965214789530,-73.92545844927360
+21,"A neighborhood that doesn’t argue about labels—Brooklyn, Queens, who cares? The fish market has the freshest shrimp, the shops are solid, and it’s just lively enough without the Bushwick chaos.","Ridgewood
+",Ridgewood,BrooklynOrQueens,NeighborhoodVibes,FreshFish,LocalMarkets,LivelyButChill,,40.69978034568490,-73.90973376461590
+22,A bustling corner shop where the Ranchero sandwich on a biscuit has a cult following. A regular’s “signature order” even includes cream cheese and jam. Expect long waits—but it’s worth it.,"Norma's Corner Shoppe
+",BreakfastSandwiches,Biscuits,Coffee,LocalFavorite,BusyButWorthIt,OutdoorSeating,Pastries,40.70248657252660,-73.90077157810920
+23,"A cozy spot where Star Trek plays in the background, the grilled cheese is legendary, and the baristas might hand you a cup of berries just because. Good coffee, better vibes.","Dweebs
+",Coffee,Chill,GrilledCheese,Espresso,Vinyl,Vibes,Work,40.70071054636890,-73.92276190694470
+24,"An Italian espresso so smooth it felt like a gift—probably because the owner’s son actually handed me a free one. Solid coffee, even better hospitality.","Suad's Sports Cafe
+",Espresso,ItalianBrew,NeighborhoodCafe,Barista,CoffeeLovers,CafeVibes,,40.701686275775000,-73.89680960694470
+25,"A café where the owner might pick up a guitar mid-shift, the matcha comes with brown sugar syrup, and the soup is so good you’ll scrape the bowl. Bring a book, stay awhile.","OneTwoOne Café
+",Cafe,LiveMusic,Matcha,PianoBar,HomemadeSoup,ArtistsCorner,NeighborhoodSpot,40.686027708857400,-73.92244243448140
+26,"Starbucks Ridgewood runs on chaos—mobile orders go missing, drinks are upside down, but sometimes, they slip you a cute sticker that makes you forgive everything for five minutes.","Starbucks
+",Drama,CoffeeStruggles,RidgewoodCafe,Chaos,MorningRituals,GoodLuckOrdering,,40.699918477482800,-73.91120244927360
+27,"The Brooklyn Bagel is a hit, but service can be hit-or-miss. Great for work, Wi-Fi holds up, and smoothies are a lifesaver—just don’t expect a warm welcome every time.","IC Brooklyn Cafe
+",Bagel,SmoothieFix,WorkFriendly,WhiteMochaBackyardSeating,,,,40.701383006679700,-73.92634859530050
+28,"A go-to espresso spot with a loyal following, known for warm hospitality and smooth coffee. While some rave about its charm, others say the atmosphere is better than the drinks.","Amma Cafe
+",Espresso,FriendlyVibes,CoffeeBeforeAShow,WineBar,LocalFavorite,QuickService,CozySpot,40.70220883960570,-73.900967022287
+29,"A bright, open café where regulars linger over dry cappuccinos and legendary blueberry muffins. Staff make it feel like home—some might even order your favorite treat just for you.","Milk & Pull
+",Cafe,BrightSpace,DryCappuccino,BlueberryMuffins,GoodForWork,Bagels,NeighborhoodSpot,40.70198414120340,-73.90622389345140
+30,"A café where vanilla syrup is homemade, banana bread vanishes by noon, and mornings start with a perfect cappuccino. Like stepping into a friend’s kitchen, where coffee comes with conversation.","Anti Co. Cafe
+",BananaBread,VanillaLatte,MorningRitual,HomemadeFlavors,LocalRoast,CafeCommunity,SmallBatch,40.68600710890400,-73.92941203578030
+31,"Biting into their vegan chocolate almond croissant—flaky, rich, unbelievably good—feels like a secret only the lucky know. Regulars swear by the quiche, but the pastries steal the show.","L'imprimerie
+",Vegan,Pastries,Croissant,Bakery,Brooklyn,Quiche,Delicious,40.6993166068689,-73.91282974252690
+32,"Retro vibes, filled with early risers and longtime locals. Known for its bacon, egg, and cheese at sunrise, sizzling home fries, and old-school counter service.","Bill's
+",Diner,Breakfast,RetroVibes,CashOnly,Pancakes,HomeFries,EarlyBird,40.69627977639930,-73.90491565234480
+33,"A true late-night classic—fried chicken, pizza, and milkshakes under one roof, with generous portions and a no-nonsense vibe that keeps the neighborhood coming back.","Crown Fried Chicken
+",LateNight,Chicken,Pizza,Fast,Affordable,Takeout,Classic,40.695295845644600,-73.92049214672570
+34,"A burger spot where late-night cravings meet warm service—some orders miss the mark, but the sweet potato fries set a new standard. The staff? Some make you feel at home, others leave you waiting.","Bushwick Burger Co.
+",Burgers,SweetPotatoFries,LateNightEats,FriendlyService,Inconsistent,TakeoutSpot,CasualVibes,40.69619951320770,-73.9095718755613
+35,"A family-run spot where the owner remembers your usual, the scallion pancake breakfast sandwich is a must, and the backyard mural makes morning coffee feel like a little escape.","C&B Luncheonette
+",Breakfast,Neighborhood,ScallionPancake,Friendly,Backyard,Coffee,Affordable,40.69627720153120,-73.90497255102360
+36,"A 3 AM tostada, crisp and piled high, hits different when you’re slightly buzzed and starving. Birria burritos are thick and juicy, and the chimichanga meal is pure comfort.","Itzel's Taqueria Deli
+",Tacos,BirriaBurrito,LateNightEats,CrispyTostadas,AuthenticMexican,Chimichanga,Munchies,40.69794259133660,-73.90773018482310
+37,"A wood-fired pizza spot where locals swear by the Hot Mess, jazz plays on the patio, and the servers make you feel like family. Order the truffle pizza and stay for the wine.","pàn
+",Pizza,HotMess,TrufflePizza,JazzNights,WoodFired,NeighborhoodSpot,GreatService,40.69429909017620,-73.90231137514250
+38,"A late-night craving led to a backyard table, fire pit glowing, a plate of al pastor tacos glistening under string lights. One bite—smoky, sweet, perfection. laughter lingers late into the night.","Ilegal Taqueria
+",Tacos,AlPastor,HandmadeTortillas,Backyard,FirePit,CozyVibes,FullBar,40.68961820074860,-73.90633897810920
+39,"Rosa’s Steakhouse feels like a party where the food steals the show—tender churrasco, unforgettable empanadas, and coconut mojitos, all with DJs, dancing, and servers who treat you like family.","Rosa’s Steakhouse
+",Cocktail,Dominican,Steakhouse,Empanada,LiveMusic,GreatService,NeighborhoodFavorite,40.69135910361900,-73.90877442378450
+40,"A 24-hour deli with the friendliest staff, a legendary chopped cheese, and a spicy bodega cat guarding the snacks. Jackie at the register might just change your life.",Fire House Deli & Grill 2,Deli,ChoppedCheese,24Hours,Coffee,BodegaCat,Friendly,Stocked,40.68897551950300,-73.90529828105850
+41,"A tiny space packed with bold Thai flavors—drunken noodles, fragrant curries, and crispy ribs that keep regulars coming back. Friendly staff, fast takeout, and the spice levels are no joke.","Golden Thai
+",Thai,DrunkenNoodles,Curry,Takeout,Spicy,SmallButMighty,Authentic,40.69569177295960,-73.90799636451680
+42,"A place of nostalgia and strong opinions—some call it the best Puerto Rican food in Brooklyn, others mourn the past. Late-night mofongo still comforts, but pasteles spark disappointment.","La Isla
+",Mofongo,Alcapurrias,SopaDePollo,LateNightEats,PuertoRicanFood,CashOnly,OldSchoolVibes,40.69899621830370,-73.91826296998950
+43,"I stepped into Jimmy’s on a freezing night, craving warmth. Their grandma slice, crispy yet airy, tasted like home—perfect sauce, golden crust, no pretense. Just solid, old-school pizza, holding the neighborhood down.","Jimmy's Pizza
+",NYCClassic,GrandmaSliceMagic,NeighborhoodPizza,LateNightEats,ComfortFood,OldSchoolVibes,PerfectSlice,40.69137919272870,-73.90907593748070
+44,"A late-night taco craving turned into a full-blown obsession—massive portions, smoky birria, and pineapple-loaded al pastor. Sometimes inconsistent, but when they get it right, it’s unforgettable.","Bushwick Taco Company
+",LateNight,BigPortions,Fresh,Tacos,Delivery,Flavorful,Casual,40.69201521836610,-73.90614938591930
+45,"“I’ve celebrated birthdays here, and it always feels like home.”  The pernil melts in your mouth, but it’s the warm, family-like atmosphere that keeps regulars coming back.","Lugo's Restaurant & Lounge
+",DominicanFood,Pernil,FamilyVibes,Bushwick,LocalFavorite,ComfortFood,CelebrationSpot,40.6964538610204,-73.89995372947250
+46,"A go-to for homesick Puerto Ricans, where rotisserie chicken drips with seasoning and arroz con gandules feels like family dinner. Service wavers, but the food keeps people coming back.","Aris Pollos A La Brasa
+",RotisserieChicken,DominicanFlavors,RiceAndBeans,LateNightEats,FamilyStyle,TakeoutSpot,FlavorPacked,40.69472046158920,-73.91075437057700
+47,"Big portions, fast service, and a husband-and-wife team who make you feel at home—order the General Tso’s tofu and grab a side of their dope chili oil.","Chen Yuan
+",Takeout,Chinese,Fast,Generous,Family,Spicy,Neighborhood,40.69425634586850,-73.91053127057700
+48,"The boneless spare ribs keep people coming back.General Tso’s is sweet, shrimp and broccoli requests might get you an eye-roll. Love it or hate it, the lady at the counter is unforgettable.","Hong Kong Expres
+",Takeout,ChineseFood,SesameChicken,CrispyWings,CashOnly,NeighborhoodSpot,BigPortions,40.6961456892733,-73.904631408608
+49,"Stepping into Fazio’s feels like walking into a neighborhood time capsule, where the scent of bubbling Sicilian slices and laughter of regulars fill the air, and the first bite takes you home.","Fazio's
+",SicilianTradition,NeighborhoodStaple,AuthenticFlavors,LocalsLoveIt,OldSchoolVibes,WarmWelcome,PizzaWithSoul,40.69451477847810,-73.91031098836810
+50,"A funky Vietnamese café where housemade sauces steal the show. It is the place someone walked 20 minutes in freezing weather for a seitan banh mi—worth it. Vibrant decor, cozy vibes, and top-tier vegetarian options.","Nhà Mình
+",VietnameseFood,BanhMi,Pho,HousemadeSauces,VegetarianFriendly,CozyVibes,ArtsyDecor,40.6969973104916,-73.90626311168140
+51,"A neighborhood staple with crispy fried chicken that rivals the big chains, a Philly cheesesteak locals swear by, and home-run spicy chicken that keeps regulars coming back. Quick service, fair prices, and friendly banter at the counter.","New Texas Chicken and Grill
+",FriedChicken,SpicyChicken,PhillyCheesesteak,NeighborhoodStaple,CrispyTexture,FastService,GoodPortions,40.68953253088130,-73.90582295830810
+52,"A lively sports bar where Super Bowl Sundays feel like home—juicy burgers, crispy wings, and cold beer fuel the cheers. Fair prices, good vibes, and a playlist that never misses.","Punta Cana Sports Bar
+",SportsBar,Burgers,Wings,ColdBeer,GameNight,LivelyVibes,NeighborhoodSpot,40.69140282782130,-73.90942743758700
+53,"A creative nightlife hub with drag shows, burlesque, and karaoke Sundays. A divey warehouse vibe, murals everywhere, and tacos that even a picky Mexican approves of.","The Deep End
+",DragShows,Burlesque,Karaoke,Tacos,WarehouseVibe,QueerFriendly,Murals,40.69452005509130,-73.90222412332200
+54,"A true dive bar with green leather booths, cheap beer-shot combos, and the crispiest fried pickles. Pool table, pinball, and killer trivia nights make it a local favorite.","Bonus Room
+",DiveBar,FriedPickles,PoolTable,TriviaNight,BeerShotCombo,LaidBack,NeighborhoodSpot,40.69622015810160,-73.90468102666840
+55,"A Brooklyn nightlife gem with a strict no-phones rule, 2-for-1 happy hour, free water stations, and DJs spinning until sunrise. Come for the music, stay for the tacos and outdoor hammocks.","Nowadays
+",DanceFloor,NoPhones,HappyHour,DJs,LateNight,Tacos,OutdoorSpace,40.6926084041983,-73.90153747784530
+56,"A lively neighborhood bar where warm lighting, live jazz nights, and oversized cocktails set the perfect scene for a memorable night out, with friendly bartenders and a cozy, stylish interior.","Doublé
+",LiveMusic,GreatVibes,CozyAmbiance,StylishInterior,FriendlyStaff,SignatureDrinks,NeighborhoodGem,40.69483331987530,-73.9062070646159
+57,"A go-to sports bar with plenty of TVs, drink deals, and a growing event space downstairs—perfect for game day, networking, or a private speakeasy-style gathering.",Bar28,SportsBar,DrinkDeals,GameDay,EventSpace,FootballSundays,Bushwick,TVScreens,40.694849588932800,-73.9061963357803
+58,"A neighborhood bar that turns into your second living room—where laundry trips turn into beer breaks, and grilled cheese with tomato soup feels like a hug. Stay for the backyard, stay longer for the PB&J shots.","Phil’s
+
+",GrilledCheese,Backyard,PBJShots,NeighborhoodBar,BoardGames,HappyHour,CozyVibes,40.69477637814310,-73.91060588720120
+59,"A bar where magic lingers in the air—cocktails crafted with care, a backyard humming with laughter, karaoke nights that feel like home, and a warmth that welcomes everyone who walks through the door.","Witching Hour
+",BushwickBars,CraftCocktails,KaraokeVibes,HappyHourMagic,NeighborhoodGem,ChillSpots,WitchyAesthetic,40.69122796709130,-73.90497983578030
+60,"A Ridgewood staple with 2-for-1 happy hour, free hot dogs, and spicy hibiscus margaritas—come for the cheap drinks, stay for the unfiltered dive bar charm and local chaos.","Myrtle Pub
+",HappyHour,DiveBar,CheapDrinks,FreeHotDogs,SpicyHibiscusMargarita,NeighborhoodSpot,Ridgewood,40.70063093826770,-73.9040421560202
+61,"A true neighborhood bar—strong drinks, hip-hop playlists, and a patio for people-watching. Service can be hit or miss, but the fried mac n' cheese and homemade sangria are worth it.","Bar Cornelia
+",DiveBar,PatioVibes,CheapDrinks,HipHopPlaylist,Sangria,FriedMacNCheese,NeighborhoodSpot,40.690487800000000,-73.91550633753030
+62,"The DJ was spinning deep-cut R&B classics, and suddenly the whole bar felt like an intimate dance floor—strangers swaying, heads nodding, and someone in the back quietly singing along.","Filthy Diamond
+",R&BVibes,VinylNights,BrooklynGroove,DancingInTheDark,MusicThatMoves,GoodEnergy,LateNightFeels,40.69495674867170,-73.91126394974960
+63,"A bar with hipster nostalgia, old décor, and espresso martinis worth talking about. Board games, vintage oddities, and bad movie nights make it a go-to for casual hangs and deep dives.","The Bad Old Days
+",EspressoMartini,HipsterNostalgia,OldDecor,BoardGames,BadMovieNights,CocktailBar,NeighborhoodSpot,40.70109198621830,-73.9081487632429
+64,"A neighborhood hideout where locals trade stories over whiskey and pinball. A little dark, a little divey, but always full of familiar faces, heavy pours, and the occasional late-night jerk chicken.","The Evergreen
+",Whiskey,Pinball,DiveBar,Regulars,JerkChicken,DarkAndChill,NeighborhoodSpot,40.686002484755100,-73.90813447488720
+65,"A cozy café with rich coffee, warm service, and a welcoming space perfect for a relaxed breakfast. A neighborhood favorite that hits the spot every time.","Merv’s Bar
+",Cafe,Coffee,Breakfast,CozyVibes,Affordable,LocalFavorite,WarmService,40.699685853412500,-73.9158480988251
+66,"A dive bar with personality—cheap drinks, a pool table, and a food window serving loaded nachos and spice bags. Service is unpredictable, but regulars swear by the wings and late-night eats.","Aunt Ginny's
+",DiveBar,CheapDrinks,PoolTable,LateNightEats,SpiceBag,LoadedNachos,UnpredictableService,40.70562751486000,-73.90702800617150
+67,"Walked in for a beer, stayed for the jukebox, darts, and a backyard that felt like a summer BBQ. Cash only, cheap drinks, and zero pretense—exactly what a neighborhood bar should be.","Old Stanley's Bar
+",DiveBar,CashOnly,Jukebox,BackyardPatio,Darts,CheapDrinks,NoFrills,40.70102821804640,-73.91400841784060
+68,"A sprawling venue with eclectic crowds, cheap drinks, wild dance parties, and a smoky outdoor space—where music shakes the walls, bartenders shape the night, and every visit feels like stepping into another world.","TV Eye
+",LiveMusic,OutdoorSpace,EclecticVibes,GreatDrinks,DanceParty,HiddenGem,UnpredictableNights,40.697883377941700,-73.90523124051700
+69,"The place is a mix of nostalgia and frustration, where a free pizza with your drink might be the best deal in town—or a disappointing reminder of what once was.","Cozy Corner
+",LocalSpot,MixedExperiences,NeighborhoodVibes,InconsistentService,FreePizza,GreatAtmosphere,HitOrMiss,40.70172412506660,-73.89884629818820
+70,"A gothic-infused bar with taxidermy, a hidden basement dance floor, and oxtail nachos worth raving about. The cocktails can be hit or miss, but the heated backyard is a solid retreat.","Talon Bar
+",GothBar,Taxidermy,BasementDancefloor,OxtailNachos,CocktailBar,HeatedBackyard,LiveDJs,40.70109547796970,-73.91435961197520
+71,"A rowdy dive with a pool table, loud rock, and a backyard for late-night hangs. Espresso martinis, a killer patty melt, and a mischievous jukebox keep the chaos fun.","Bootleg Bar
+",DiveBar,PoolTable,PattyMelt,EspressoMartini,LoudMusic,Backyard,RowdyVibes,40.698838495722600,-73.91723297578070
+72,"""A rare find: a park that welcomes both kids and dogs. Green space, picnics, a play area, and a peaceful vibe—just wish people picked up after their pets more!""","Irving Square Park
+",DogFriendly,FamilyVibes,UrbanGreenery,PlaygroundFun,PicnicPerfect,CommunitySpot,PickUpAfterPets,40.69278267489370,-73.90908954259630
+73,"A park of two realities—mornings filled with peaceful joggers and playful children, nights overtaken by chaos.","Bushwick Playground
+",Playground,SportsFields,ParkCleanup,Soccer,UnsafeAtNight,CommunityConcern,MixedCrowd,40.69617038721120,-73.91186813001860
+74,"A gritty DIY venue on the Ridgewood-Bushwick line, where indie bands, raves, and brass ensembles collide. A massive backyard, booming sound system, cheap drinks, and unpredictable nights make it a local favorite.",Trans-Pecos,DIYVenue,Ridgewood,Bushwick,BackyardVibes,QueerFriendly,LoudAndDark,CheapDrinks,40.6974084626594,-73.9061601502108
+75,"An intimate underground venue where the bass hits deep, the crowd moves till sunrise, and the sound system either makes or breaks the night. Just wish water wasn’t $5 a bottle.",H0L0,UndergroundVibes,BrooklynRaves,GreatSound,NoFreeWater,LateNightEnergy,DJCulture,NeedsBetterVentilation,40.69455073302520,-73.90214571072120
+76,"A creative sanctuary in Brooklyn where live music, performances, and community gatherings create an atmosphere of connection. A place for healing, artistic expression, and unforgettable nights filled with pure energy.","Rakit Club
+",LiveMusic,CreativeSpace,HealingEnergy,BrooklynNights,CommunityVibes,ArtisticExpression,MagicalMoments,40.691323837166300,-73.90284242097390
+77,"An intimate venue where local talent shines, with strong acoustics and a welcoming community. From all-ages shows to late-night sets, it’s a space built for music, art, and connection.","Stone Circle Theatre
+",LiveMusic,LocalTalent,CommunitySpace,AllAgesShows,AcousticVibes,PerformanceVenue,ArtisticEnergy,40.701540993292100,-73.89954538690290
+78,"A hidden jazz haven where young musicians play for love, not price—no charge, just donations, and a room that hums like an old vinyl spinning under warm, low lights.","Wilson Live
+",LiveJazz,HiddenGem,NYCNightlife,MusicLovers,JazzCommunity,SupportArtists,NYCVibes,40.68993240041770,-73.90588724457410
+79,"A music venue where the sound system and stage lighting can create magic—or chaos. Rooftop views, cozy fireplaces, and a well-stocked bar make it more than just a concert space.","Brooklyn Made
+",LiveMusic,Rooftop,CozyFireplace,IntimateVenue,BarScene,GreatLighting,MixedAcoustics,40.70757271692270,-73.92207025621830
+80,"An intimate theater space known for experimental, boundary-pushing performances, from queer wonderlands to sung reflections on Black life in America. A bohemian loft hosting plays that leave lasting impressions.","The Bushwick Starr
+",ExperimentalTheater,IntimateVenue,QueerArt,AffordableTickets,LoftSpace,NYCTheater,BoundaryPushing,40.695745374158700,-73.90448239484920
+81,"A forgotten cemetery tucked under the L train—peaceful yet eerie, with razor wire, locked gates, and whispers of a dark past. A quiet walk, but don’t get trapped inside.","Most Holy Trinity Cemetery
+",Cemetery,Historic,UnderTheLTrain,EerieVibes,QuietEscape,LockedGates,ForgottenHistory,40.68874579621030,-73.90280132867900
+82,"A 24-hour haven for organic finds, overpriced produce, and the occasional spoiled surprise—stay for the vegan cheese, leave when you spot a rat near the salad bar.","Food Story Natural Market
+",LateNightGroceries,OverpricedOrganic,HiddenGems,SpoiledSurprises,VeganOptions,NeighborhoodStaple,FoodSafetyConcerns,40.69957448012030,-73.91160628817690
+83,"A beloved neighborhood bodega where Dominican flavors shine, but inconsistent service, pricing concerns, and questionable food safety make every visit a gamble between nostalgia and regret.",Cypress Food Market,DominicanFood,NeighborhoodSpot,InconsistentService,AffordableEats,HitOrMiss,FriendlyStaff,FoodSafetyConcerns,40.696569050713200,-73.89980864927360
+84,A bustling corner shop where the Ranchero sandwich on a biscuit has a cult following. A regular’s “signature order” even includes cream cheese and jam. Expect long waits—but it’s worth it.,"Natural Farm Market
+",BreakfastSandwiches,Biscuits,Coffee,LocalFavorite,BusyButWorthIt,OutdoorSeating,Pastries,40.69286962819320,-73.91202090694470
+85,"A well-stocked halal market with fresh produce, hard-to-find Middle Eastern spices, and the best pita in the neighborhood. Affordable essentials and a clean, well-organized space for weekly grocery runs.","Al Noor market
+",Halal,MiddleEasternSpices,PitaBread,FreshProduce,Affordable,LocalGrocery,InternationalProducts,40.69706612103580,-73.9061615357803
+86,"""A family-run gem with gourmet finds, a top-notch deli, and the friendliest staff—just don’t expect them to open on time in the morning!""","Forest Mini Market
+",NeighborhoodFavorite,GourmetFinds,OrganicMarket,FamilyOwned,TopDeli,FriendlyService,FreshProduce,40.69096196521150,-73.90850756626630
+87," ""I always leave with something unexpected—but the prices make me wince at checkout."" A late-night haven with vibrant produce, rare finds, and a beer aisle worth browsing.","City Fresh Market - Bushwick
+
+",24HourMarket,FreshProduce,GourmetSelection,Pricey,GreatBeerSelection,NicheItems,LateNightStaple,40.70310918551490,-73.92551955927460
+88,"The music is too loud, the bread sits dangerously close to the restroom, but at 2 AM, when you need fresh vegetables or imported spices, there’s nowhere else like it.","FOOD BAZAAR
+",24HrConvenience,CulturalBazaar,NeighborhoodEssential,LateNightShopping,TooLoudMusic,HiddenGems,NeedsImprovement,40.69852885888110,-73.90922633296690
+89,"A family-run deli-turned-market where the owner remembers your order, the juice bar is always fresh, and the bodega cat guards the produce. Don Miguel and his team keep the shelves stocked and the sandwiches stacked.","stop one supermarket
+",Bodega,DeliSandwiches,FreshProduce,JuiceBar,NeighborhoodSpot,OrganicOptions,LocalFavorite,40.689743474893800,-73.9059433092812
+90,"Their ‘Oh Mama I Love You’ sandwich is packed, flavorful, and worth every bite—this bodega never skimps on portions, and despite some chaos, it’s been a Bushwick staple for years.","Los Limones Deli
+",Bodega,ChoppedCheese,OhMamaILoveYou,Bushwick,BigPortions,NeighborhoodClassic,NoSkimping,40.694482890213400,-73.90653135877370
+91,"""A cleaner-than-most subway stop where the L train arrives reliably, vintage mosaics add charm, but cold drafts and the occasional rat remind you it’s still NYC transit.""
+","Halsey St
+",LTrainLife,MTAReality,SubwayAesthetics,CleanForNYC,ColdDrafts,VintageMosaics,AlmostFiveStars,40.69568710820560,-73.90414529886750
+92,"A station built around the dead—tracks stacked to respect the cemetery, half outside, half underground, with views that stretch beyond Brooklyn’s rush. Just wish the trains were on time.","Wilson Av
+",SubwayViews,LTrain,HistoricNYC,TransitProblems,UrbanDesign,BrooklynCommute,NYCUnderground,40.68885935332980,-73.90465715163530
+93,"A Bushwick haven for artists and dreamers—three floors of art, a backyard built for connection, and events that pulse with creative energy, all wrapped in an unfiltered, unpredictable magic.","Unruly Collective
+",ArtSpace,CreativeCommunity,LiveMusic,IndieVibes,HiddenGem,DIYScene,BrooklynEnergy,40.6890179067988,-73.90602077372020
