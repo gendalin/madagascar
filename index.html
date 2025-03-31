@@ -1,0 +1,919 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    /* Dark mode map styles */
+    .leaflet-container {
+    background: #000;
+}
+    .leaflet-tile-pane {
+      filter: grayscale(1) invert(1) brightness(0.7) contrast(1.2);
+    }
+    
+    /* Additional dark mode map elements */
+    /* 分類樣式用於 leaflet 的自訂 divIcon */
+.leaflet-marker-icon.custom-marker {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+  background-color: orange; /* fallback */
+}
+
+
+
+    .leaflet-control-attribution {
+      background: rgba(0, 0, 0, 0.7);
+      color: #999;
+      font-size: 10px;
+    }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+      background: #222;
+      color: #ddd;
+      box-shadow: 0 3px 14px rgba(0, 0, 0, 0.6);
+    }
+    .leaflet-control-zoom {
+      background: #222;
+      border-color: #444;
+    }
+    .leaflet-control-zoom a {
+      color: #ddd;
+      background: #333;
+    }
+  </style>
+  <title>Mobile Trip Planner</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+
+    #loading {
+      position: fixed;
+      inset: 0;
+      background: rgba(255,255,255,0.95);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+    .spinner {
+      border: 4px solid #eee;
+      border-top: 4px solid #333;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 0.8s linear infinite;
+      margin-right: 12px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .page {
+      padding: 24px;
+      display: none;
+    }
+
+    .page.active {
+      display: block;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .category-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .label {
+      flex: 1;
+      font-size: 1rem;
+    }
+
+    .dot-group {
+      display: flex;
+      gap: 12px;
+    }
+
+    .dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #ddd;
+      border: 1px solid #aaa;
+      cursor: pointer;
+    }
+
+    .dot.selected {
+      background: #333;
+    }
+
+    .count-display {
+      margin-left: 12px;
+      font-size: 0.9rem;
+      color: #666;
+      width: 40px;
+      text-align: right;
+    }
+
+    .poi-option {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+      background: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: left;
+      color: #000;
+      font-family: garamond;
+      font-size: 18px;
+    }
+
+    .poi-option .category {
+      display: block;
+      font-size: 0.8rem;
+      color: #666;
+      font-family: sans-serif;
+      margin-top: 4px;
+    }
+
+    #poi1Location, #poi2Remaining, #poi3Remaining {
+      margin-bottom: 1rem;
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+
+    
+
+    button {
+      display: block;
+      margin: 2rem auto 0;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border: none;
+      background-color: #333;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button#shufflePOI1, button#shufflePOI2, button#shufflePOI3 {
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #000;
+    }
+    
+    button#shufflePOI1:hover, button#shufflePOI2:hover, button#shufflePOI3:hover {
+      background-color: #666;
+      color: #fff;
+    }
+
+    button:hover {
+      background-color: #555;
+      color:#fff;
+    }
+    
+    .tab-bar {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .tab-button {
+      padding: 8px 16px;
+      margin: 0 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: #000;
+    }
+
+    .tab-button.active {
+      
+      font-weight: bold;
+    }
+
+    .poi-card {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 12px;
+      background: #f9f9f9;
+    }
+
+    h4 {
+      font-family: garamond;
+      font-size: 18px;
+    }
+
+    #map {
+      width: 100%;
+      height: 500px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }    
+  </style>
+</head>
+<body>
+
+
+<!-- Loading UI -->
+<div id="loading">
+  <div class="spinner"></div>
+  <div>Loading data...</div>
+</div>
+
+<!-- Page: 1.0_home -->
+<div class="page active" id="home">
+  <h1 class="title">How intense would you like to explore?</h1>
+
+  <div class="category-row" data-category="cafe">
+    <span class="label">Cafe</span>
+    <div class="dot-group">
+      <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+    </div>
+    <span class="count-display">0/3</span>
+  </div>
+
+  <div class="category-row" data-category="attraction">
+    <span class="label">Attraction</span>
+    <div class="dot-group">
+      <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+    </div>
+    <span class="count-display">0/3</span>
+  </div>
+
+  <div class="category-row" data-category="bookstore">
+    <span class="label">Bookstore</span>
+    <div class="dot-group">
+      <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+    </div>
+    <span class="count-display">0/3</span>
+  </div>
+
+  <button id="startBtn">Start</button>
+</div>
+
+<!-- Page: 2.0_POI1 -->
+<div class="page" id="POI1">
+  <h2>Let's begin from somewhere close to you</h2>
+  <p id="poi1Location"></p>
+  <div id="poi1Options" style="margin-bottom: 1.5rem;"></div>
+  <button id="shufflePOI1">Shuffle</button>
+</div>
+
+<!-- Page: 2.1_POI2 -->
+<div class="page" id="POI2">
+  <h2>Keep exploring</h2>
+  <p id="poi2Category"></p>
+  <p id="poi2Remaining"></p>
+  <div id="poi2Options" style="margin-bottom: 1.5rem;"></div>
+  <button id="shufflePOI2">Shuffle</button>
+</div>
+
+<!-- Page: 2.2_POI3 -->
+<div class="page" id="POI3">
+  <h2 id="poi3Title">Let's wrap up by choose something sounds good to you about ...</h2>
+  <p id="poi3Remaining"></p>
+  <div id="poi3Options" style="margin-bottom: 1.5rem;"></div>
+  <button id="shufflePOI3">Shuffle</button>
+</div>
+
+<!-- Page: 3.1_TextMode -->
+<div class="page" id="TextMode">
+  
+  <h2>Your wandering experience</h2>
+  <div class="tab-bar">
+    <button class="tab-button active" id="tabText">Text</button>
+    <button class="tab-button" id="tabMap">Map</button>
+  </div>
+  <div id="textResultContainer"></div>
+</div>
+
+<!-- Page: 3.2_MapMode -->
+<div class="page" id="MapMode">
+  <div class="tab-bar">
+    <button class="tab-button" id="tabTextBack">Text</button>
+    <button class="tab-button active" id="tabMapBack">Map</button>
+  </div>
+  <h2>Your wandering experience</h2>
+  <div id="map"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+let appState = {
+  categoryPreferences: {},
+  remainingSelections: {},
+  excludedCategories: [],
+  selectedNodes: [],
+  selectedPOI2List: [],
+  selectedPOI3List: [], // Added for POI3
+  currentPOI2Category: null,
+  currentPOI3Category: null, // Added for POI3
+  csvData: [],
+};
+
+let userCoords = null; // will be { lat, lon }
+
+
+document.addEventListener('DOMContentLoaded', async () => {
+  showLoading(true);
+  await loadCSVData();
+  setupEventListeners();
+  showLoading(false);
+  navigateTo('home');
+});
+
+function showLoading(state) {
+  document.getElementById('loading').style.display = state ? 'flex' : 'none';
+}
+
+async function loadCSVData() {
+  try {
+    const response = await fetch('filtered_categories.csv');
+    if (!response.ok) {
+      throw new Error(`Failed to fetch CSV: ${response.status}`);
+    }
+    const text = await response.text();
+    appState.csvData = Papa.parse(text, {
+      header: true,
+      skipEmptyLines: true
+    }).data;
+    console.log(`Loaded ${appState.csvData.length} POIs from CSV`);
+  } catch (error) {
+    console.error('Error loading CSV data:', error);
+    alert('Failed to load data. Please refresh the page.');
+  }
+}
+
+function setupEventListeners() {
+  document.getElementById('startBtn').addEventListener('click', () => {
+    appState.categoryPreferences = getCategorySelections();
+    if (Object.keys(appState.categoryPreferences).length === 0) {
+      alert('Please select at least one category to explore');
+      return;
+    }
+    navigateTo('POI1');
+  });
+
+  const shufflePOI1 = document.getElementById('shufflePOI1');
+  if (shufflePOI1) shufflePOI1.addEventListener('click', renderPOI1Options);
+  
+  const shufflePOI2 = document.getElementById('shufflePOI2');
+  if (shufflePOI2) shufflePOI2.addEventListener('click', renderPOI2Options);
+
+  const shufflePOI3 = document.getElementById('shufflePOI3');
+  if (shufflePOI3) shufflePOI3.addEventListener('click', renderPOI3Options);
+
+  document.querySelectorAll('.category-row').forEach(row => {
+    row.addEventListener('click', e => {
+      if (!e.target.classList.contains('dot')) return;
+      const dots = [...row.querySelectorAll('.dot')];
+      const idx = dots.indexOf(e.target);
+      const selected = row.querySelectorAll('.dot.selected');
+      if (!e.target.classList.contains('selected')) {
+        if (selected.length < 3 && dots.slice(0, idx).every(dot => dot.classList.contains('selected')))
+          e.target.classList.add('selected');
+      } else {
+        if (e.target === selected[selected.length - 1])
+          e.target.classList.remove('selected');
+      }
+      row.querySelector('.count-display').textContent =
+        `${row.querySelectorAll('.dot.selected').length}/3`;
+    });
+  });
+}
+
+function getCategorySelections() {
+  const selections = {};
+  document.querySelectorAll('.category-row').forEach(row => {
+    const cat = row.dataset.category;
+    const count = row.querySelectorAll('.dot.selected').length;
+    if (count > 0) selections[cat] = count;
+  });
+  return selections;
+}
+
+function navigateTo(pageId) {
+  document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
+  document.getElementById(pageId).classList.add('active');
+  if (pageId === 'POI1') initPOI1();
+  if (pageId === 'POI2') initPOI2();
+  if (pageId === 'POI3') initPOI3();
+  if (pageId === 'MapMode') initMapMode();
+}
+
+function initPOI1() {
+  // 先定位
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        userCoords = {
+          lat: pos.coords.latitude,
+          lon: pos.coords.longitude,
+        };
+        document.getElementById('poi1Location').textContent = 
+          `Your location: ${userCoords.lat.toFixed(4)}, ${userCoords.lon.toFixed(4)}`;
+        renderPOI1Options();
+      },
+      async err => {
+        console.warn("📍 Geolocation failed, using IP location");
+        const ipInfo = await fetch('https://ipapi.co/json/').then(r => r.json());
+        userCoords = {
+          lat: ipInfo.latitude,
+          lon: ipInfo.longitude,
+        };
+        document.getElementById('poi1Location').textContent = 
+          `Approx. location (via IP): ${userCoords.city}, ${userCoords.country_name}`;
+        renderPOI1Options();
+      }
+    );
+  } else {
+    console.warn("📍 Geolocation not supported");
+    document.getElementById('poi1Location').textContent = "Location not available.";
+    renderPOI1Options();
+  }
+}
+
+
+function renderPOI1Options() {
+  const container = document.getElementById('poi1Options');
+  container.innerHTML = '';
+  
+  if (!appState.csvData || appState.csvData.length === 0) {
+    container.innerHTML = '<p>No data available. Please refresh the page.</p>';
+    return;
+  }
+  
+  function haversineDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371; // Earth radius in km
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat/2)**2 + 
+            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dLon/2)**2;
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+  }
+
+  const options = appState.csvData
+    .filter(poi => {
+    const lat = parseFloat(poi.Lat);
+    const lon = parseFloat(poi.Lon);
+    if (!lat || !lon || !userCoords) return false;
+    const dist = haversineDistance(userCoords.lat, userCoords.lon, lat, lon);
+    return dist <= 1 && poi.newyorker_summary && poi.newyorker_summary.toLowerCase() !== 'uncharted';
+    })
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 3);
+
+  if (options.length === 0) {
+    container.innerHTML = '<p>No suitable options found. Please refresh the page.</p>';
+    return;
+  }
+
+  options.forEach(poi => {
+    const btn = document.createElement('button');
+    btn.className = 'poi-option';
+    btn.innerHTML = `${poi.newyorker_summary || poi.Title}
+      <span class="category">${poi.Category}</span>`;
+    btn.onclick = () => {
+      const cat = poi.Category?.trim().toLowerCase();
+      appState.selectedNodes.push(poi);
+      appState.excludedCategories = [cat];
+      appState.remainingSelections = { ...appState.categoryPreferences };
+      if (appState.remainingSelections[cat]) {
+        appState.remainingSelections[cat] -= 1;
+      }
+      navigateTo('POI2');
+    };
+    container.appendChild(btn);
+  });
+}
+
+function initPOI2() {
+  appState.selectedPOI2List = [];
+
+  const nextCategory = Object.keys(appState.remainingSelections).find(cat =>
+    !appState.excludedCategories.includes(cat.trim().toLowerCase()) &&
+    appState.remainingSelections[cat] > 0
+  );
+
+  if (!nextCategory) {
+    alert("All categories completed!");
+    navigateTo('home');
+    return;
+  }
+
+  appState.currentPOI2Category = nextCategory;
+  updatePOI2RemainingCount();
+  renderPOI2Options();
+}
+
+function updatePOI2RemainingCount() {
+  const cat = appState.currentPOI2Category;
+  const count = appState.remainingSelections[cat] || 0;
+  document.getElementById('poi2Category').textContent = `Category: ${cat}`;
+  document.getElementById('poi2Remaining').textContent = `Choose ${count} more`;
+  return count;
+}
+
+function renderPOI2Options() {
+  const container = document.getElementById('poi2Options');
+  container.innerHTML = '';
+
+  if (!appState.currentPOI2Category) {
+    container.innerHTML = '<p>No category selected</p>';
+    return;
+  }
+
+  const cat = appState.currentPOI2Category.trim().toLowerCase();
+  const selected = appState.selectedPOI2List;
+
+  const candidates = appState.csvData.filter(poi => {
+    const poiCat = poi.Category?.trim().toLowerCase();
+    const titleKey = poi.Title?.trim().toLowerCase();
+    return poiCat === cat &&
+      !appState.selectedNodes.some(n => n.Title?.trim().toLowerCase() === titleKey) &&
+      !selected.some(n => n.Title?.trim().toLowerCase() === titleKey) &&
+      poi.newyorker_summary && poi.newyorker_summary.toLowerCase() !== 'uncharted';
+  });
+
+  console.log(`🔍 [POI2] Category: ${cat}, Candidates found: ${candidates.length}`);
+
+  if (candidates.length === 0) {
+    container.innerHTML = '<p>No more options available for this category</p>';
+    
+    // If no candidates but we still need selections, move to next category
+    if (appState.remainingSelections[appState.currentPOI2Category] > 0) {
+      appState.excludedCategories.push(cat);
+      initPOI2();
+    }
+    return;
+  }
+
+  const needed = Math.min(5 - selected.length, candidates.length);
+  const random = candidates.sort(() => 0.5 - Math.random()).slice(0, needed);
+  const all = [...selected, ...random];
+
+  all.forEach(poi => {
+    const btn = document.createElement('button');
+    btn.className = 'poi-option';
+    btn.innerHTML = `${poi.newyorker_summary || poi.Title}
+      <span class="category">${poi.Category}</span>`;
+    btn.onclick = () => {
+      const titleKey = poi.Title?.trim().toLowerCase();
+      if (appState.remainingSelections[appState.currentPOI2Category] <= 0) return;
+      if (!appState.selectedPOI2List.some(p => p.Title?.trim().toLowerCase() === titleKey)) {
+        appState.selectedNodes.push(poi);
+        appState.selectedPOI2List.unshift(poi);
+        appState.remainingSelections[appState.currentPOI2Category] -= 1;
+
+        if (appState.remainingSelections[appState.currentPOI2Category] === 0) {
+            console.log("✅ Completed POI2. Moving to POI3");
+            navigateTo('POI3'); // Move to next category
+        } else {
+          updatePOI2RemainingCount();
+          renderPOI2Options();
+        }
+      }
+    };
+    container.appendChild(btn);
+  });
+}
+
+// 綁定 POI3 shuffle 按鈕
+document.getElementById('shufflePOI3')?.addEventListener('click', renderPOI3Options);
+
+// 將 POI2 的結尾邏輯改為：遍歷分類，全部完成後才跳 POI3
+function goToNextPOI2CategoryOrPOI3() {
+  const nextCategory = Object.keys(appState.remainingSelections).find(cat =>
+    !appState.excludedCategories.includes(cat.trim().toLowerCase()) &&
+    appState.remainingSelections[cat] > 0
+  );
+
+  if (nextCategory) {
+    appState.currentPOI2Category = nextCategory;
+    appState.selectedPOI2List = [];
+    updatePOI2RemainingCount();
+    renderPOI2Options();
+  } else {
+    navigateTo('POI3');
+  }
+}
+
+// ✅ 初始化 POI3
+function initPOI3() {
+  appState.selectedPOI3List = [];
+
+  // Find a category different from POI2 that has remaining selections in user preferences
+  const availableCategories = Object.keys(appState.categoryPreferences).filter(cat => {
+    const catLower = cat.trim().toLowerCase();
+    // Exclude the current POI2 category
+    return catLower !== appState.currentPOI2Category?.trim().toLowerCase() && 
+           !appState.excludedCategories.includes(catLower);
+  });
+
+  if (availableCategories.length === 0) {
+    // If no different categories available, use any category from the data
+    const allCategories = [...new Set(appState.csvData.map(poi => poi.Category?.trim()))].filter(Boolean);
+    const filteredCategories = allCategories.filter(cat => 
+      cat.trim().toLowerCase() !== appState.currentPOI2Category?.trim().toLowerCase() &&
+      !appState.excludedCategories.includes(cat.trim().toLowerCase())
+    );
+    
+    if (filteredCategories.length > 0) {
+      appState.currentPOI3Category = filteredCategories[Math.floor(Math.random() * filteredCategories.length)];
+      
+      // Check if this category exists in user preferences
+      const categoryInPreferences = Object.keys(appState.categoryPreferences).find(
+        prefCat => prefCat.trim().toLowerCase() === appState.currentPOI3Category.trim().toLowerCase()
+      );
+      
+      if (categoryInPreferences) {
+        // Use the user's preference for this category
+        appState.remainingSelections[appState.currentPOI3Category] = 
+          appState.categoryPreferences[categoryInPreferences];
+      } else {
+        // Set a default selection count of 1 for categories not in user preferences
+        appState.remainingSelections[appState.currentPOI3Category] = 1;
+      }
+    } else {
+      alert("No more different categories available!");
+      navigateTo('home');
+      return;
+    }
+  } else {
+    // Use a random available category
+    appState.currentPOI3Category = availableCategories[Math.floor(Math.random() * availableCategories.length)];
+    // Use the user's preference for this category
+    appState.remainingSelections[appState.currentPOI3Category] = 
+      appState.categoryPreferences[appState.currentPOI3Category];
+  }
+
+  document.getElementById('poi3Title').textContent =
+    `Let's wrap up by choosing something that sounds good to you about ${appState.currentPOI3Category}!`;
+
+  updatePOI3RemainingCount();
+  renderPOI3Options();
+}
+
+function updatePOI3RemainingCount() {
+  const cat = appState.currentPOI3Category;
+  const count = appState.remainingSelections[cat] || 0;
+  document.getElementById('poi3Remaining').textContent = `Choose ${count} more`;
+  return count;
+}
+
+function renderPOI3Options() {
+  const container = document.getElementById('poi3Options');
+  container.innerHTML = '';
+
+  if (!appState.currentPOI3Category) {
+    container.innerHTML = '<p>No category selected for final selection</p>';
+    return;
+  }
+
+  const cat = appState.currentPOI3Category.trim().toLowerCase();
+  const selected = appState.selectedPOI3List || [];
+
+  const candidates = appState.csvData.filter(poi => {
+    const poiCat = poi.Category?.trim().toLowerCase();
+    const titleKey = poi.Title?.trim().toLowerCase();
+    return poiCat === cat &&
+      !appState.selectedNodes.some(n => n.Title?.trim().toLowerCase() === titleKey) &&
+      !selected.some(n => n.Title?.trim().toLowerCase() === titleKey) &&
+      poi.newyorker_summary && poi.newyorker_summary.toLowerCase() !== 'uncharted';
+  });
+
+  if (candidates.length === 0) {
+    container.innerHTML = '<p>No more options available for this category.</p>';
+    return;
+  }
+
+  const needed = Math.min(5 - selected.length, candidates.length);
+  const random = candidates.sort(() => 0.5 - Math.random()).slice(0, needed);
+  const all = [...selected, ...random];
+
+  all.forEach(poi => {
+    const btn = document.createElement('button');
+    btn.className = 'poi-option';
+    btn.innerHTML = `${poi.newyorker_summary || poi.Title}
+      <span class="category">${poi.Category}</span>`;
+    btn.onclick = () => {
+      const titleKey = poi.Title?.trim().toLowerCase();
+      if (appState.remainingSelections[appState.currentPOI3Category] <= 0) return;
+      if (!appState.selectedPOI3List.some(p => p.Title?.trim().toLowerCase() === titleKey)) {
+        appState.selectedNodes.push(poi);
+        appState.selectedPOI3List.unshift(poi);
+        appState.remainingSelections[appState.currentPOI3Category] -= 1;
+
+        if (appState.remainingSelections[appState.currentPOI3Category] === 0) {
+          //alert("🎉 Your trip is complete! Here are your selected places:\n" + 
+                //appState.selectedNodes.map(node => node.Title).join("\n"));
+                
+          // Show loading effect
+          const loadingEl = document.getElementById('loading');
+          loadingEl.style.display = 'flex';
+          document.querySelector('#loading div:last-child').textContent = 'Generating the map of wandering for you';
+          
+          // Wait 3 seconds before showing the text mode
+          setTimeout(() => {
+            loadingEl.style.display = 'none';
+            finishPOI3AndShowTextMode(); // ✅ 進入 3.1_TextMode 並渲染內容
+          }, 3000);
+        } else {
+          updatePOI3RemainingCount();
+          renderPOI3Options();
+        }
+      }
+    };
+    container.appendChild(btn);
+  });
+}
+
+// ✅ TextMode 初始化
+function initTextMode() {
+  const container = document.getElementById('textResultContainer');
+  container.innerHTML = '';
+
+  if (!appState.selectedNodes.length) {
+    container.innerHTML = '<p>No selections made.</p>';
+    return;
+  }
+
+  appState.selectedNodes.forEach(poi => {
+    const card = document.createElement('div');
+    card.className = 'poi-card';
+
+    const title = document.createElement('p');
+    title.textContent = poi.Title;
+
+    const address = document.createElement('p');
+    address.innerHTML = ` ${poi.Address || 'N/A'}`;
+
+    const summary = document.createElement('h4');
+    summary.innerHTML = ` ${poi.newyorker_summary || 'No summary available.'}`;
+
+    card.appendChild(summary);
+    card.appendChild(title);
+    card.appendChild(address);
+    
+    container.appendChild(card);
+  });
+}
+
+// ✅ MapMode 初始化（Leaflet）
+function initMapMode() {
+  const mapContainer = document.getElementById('map');
+  if (!mapContainer || getComputedStyle(mapContainer).display === 'none') return;
+
+  if (window.mapInstance) window.mapInstance.remove();
+
+  const map = L.map('map').setView([40.807384, -73.963036], 13);
+  window.mapInstance = map;
+
+  // 黑底地圖
+  L.tileLayer('', { attribution: '' }).addTo(map);
+  map.getContainer().style.background = '#000';
+
+  const colorMap = {
+    cafe: '#FF5F00',
+    bookstore: '#FF02D6',
+    attraction: '#01E089'
+  };
+
+  const points = [];
+
+  appState.selectedNodes.forEach(poi => {
+    const lat = parseFloat(poi.Lat);
+    const lon = parseFloat(poi.Lon);
+    if (isNaN(lat) || isNaN(lon)) return;
+
+    const cat = poi.Category?.trim().toLowerCase();
+    const color = colorMap[cat] || '#01E089'; // 預設顏色
+
+     // 1️⃣ 收集中心點座標
+        points.push([lat, lon]);
+
+    // 建立一個 divIcon，包含 colored dot + 文字
+    // 2️⃣ 畫 circleMarker（圓點）
+  const circle = L.circleMarker([lat, lon], {
+    radius: 5,
+    fillColor: color,
+    color: color,
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 1,
+    pane: 'markerPane' // 確保在 polyline 上層
+  }).addTo(map);
+
+  // 3️⃣ 加文字 label（在右側）
+  const icon = L.divIcon({
+    className: '',
+    html: `
+      <div class="zoom-label" style="display:flex; align-items:center; gap:6px;width:200px;">
+        <div class="zoom-text" style="color:#fff; font-size:8px; line-height:1.4; width:175px;">
+          <strong>${poi.newyorker_summary}</strong><br>
+          <div style="margin-top:12px">${poi.Title || ''}<br>
+          <em>${poi.Address || ''}</em></div>
+        </div>
+      </div>`,
+    iconAnchor: [-20, 6] // 文字位置向右偏移（x 偏移可調整）
+  });
+  L.marker([lat, lon], { icon }).addTo(map);
+
+  // 4️⃣ 點擊可看圖
+  if (poi.imageURL) {
+    circle.bindPopup(`<img src="${poi.imageUrl}" style="max-width:200px;">`);
+  }
+});
+
+// 5️⃣ 畫路線：連接 node 中心
+if (points.length > 1) {
+  L.polyline(points, { color: '#fff', weight: 1, opacity: 0.9 }).addTo(map);
+  map.fitBounds(points);
+}
+
+  setTimeout(() => {
+    map.invalidateSize();
+  }, 200);
+
+  map.on('zoomend', () => {
+  const zoom = map.getZoom();
+  const scale = zoom / 13; // 基於原始 zoom 13 來放大縮小
+
+  document.querySelectorAll('.zoom-text').forEach(el => {
+    el.style.transform = `scale(${scale})`;
+    el.style.transformOrigin = 'left center';
+  });
+});
+
+
+
+}
+
+
+
+// ✅ Tab 切換行為
+document.getElementById('tabText')?.addEventListener('click', () => {
+  navigateTo('TextMode');
+  document.getElementById('tabText').classList.add('active');
+  document.getElementById('tabMap').classList.remove('active');
+});
+
+document.getElementById('tabMap')?.addEventListener('click', () => {
+  navigateTo('MapMode');
+  document.getElementById('tabMap').classList.add('active');
+  document.getElementById('tabText').classList.remove('active');
+});
+
+document.getElementById('tabTextBack')?.addEventListener('click', () => {
+  navigateTo('TextMode');
+  document.getElementById('tabText').classList.add('active');
+  document.getElementById('tabMap').classList.remove('active');
+});
+
+document.getElementById('tabMapBack')?.addEventListener('click', () => {
+  navigateTo('MapMode');
+  document.getElementById('tabMap').classList.add('active');
+  document.getElementById('tabText').classList.remove('active');
+});
+
+// ✅ 將 POI3 完成後導入 TextMode
+function finishPOI3AndShowTextMode() {
+  navigateTo('TextMode');
+  initTextMode();
+}
+</script>
+
+</body>
+</html>
+
